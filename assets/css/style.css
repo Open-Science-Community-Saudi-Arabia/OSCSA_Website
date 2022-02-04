@@ -417,6 +417,10 @@ section {
   margin-bottom: 40px;
 }
 
+.section-description a {
+    color: #166497;
+}
+
 .section-title-divider {
   width: 50px;
   height: 3px;
@@ -462,10 +466,14 @@ section {
   margin-bottom: 0;
 }
 
+#about a {
+    color: #166497;
+}
+
 /* Services Section
 --------------------------------*/
 #services {
-  background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)), url("../img/services-bg.jpg") fixed center center;
+  background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)), url("../img/services-bg.jpeg") fixed center center;
   background-size: cover;
   padding: 80px 0 60px 0;
 }
