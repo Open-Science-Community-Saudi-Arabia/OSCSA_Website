@@ -1,0 +1,44 @@
+body {
+  background: #fff;
+  color: #666666;
+  family: 'IBM Plex Sans Arabic', sans-serif;
+}
+
+#services .service-icon-ar {
+  float: right;
+  background: #03C4EB;
+  border-radius: 50%;
+  transition: 0.5s;
+  border: 1px solid #03C4EB;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 64px;
+  height: 64px;
+}
+
+#services .service-icon-ar i {
+  color: #fff;
+  font-size: 24px;
+  line-height: 0;
+}
+#services .service-item:hover .service-icon-ar {
+  background: #fff;
+}
+#services .service-item:hover .service-icon-ar i {
+  color: #03C4EB;
+}
+
+#services .service-title-ar {
+  margin-right: 80px;
+  font-weight: 700;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+}
+#services .service-title-ar a {
+  color: #111;
+}
+#services .service-description-ar {
+  margin-right: 80px;
+  line-height: 24px;
+}

@@ -8,10 +8,11 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+
 body {
   background: #fff;
   color: #666666;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Open Sans", 'IBM Plex Sans Arabic', sans-serif;
 }
 
 a {
@@ -32,7 +33,7 @@ p {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Raleway", sans-serif;
+  font-family: "Raleway", 'Noto Kufi Arabic', sans-serif;
   font-weight: 400;
   margin: 0 0 20px 0;
   padding: 0;
@@ -113,6 +114,7 @@ h1, h2, h3, h4, h5, h6 {
   margin: 30px 0 10px 0;
   font-weight: 700;
   line-height: 48px;
+  font-family: 'Noto Kufi Arabic', sans-serif;
   /* text-transform: uppercase; */
   color: #fff;
 }
@@ -125,6 +127,8 @@ h1, h2, h3, h4, h5, h6 {
 #hero h2 {
   color: #ccc;
   margin-bottom: 50px;
+  font-family: 'Noto Kufi Arabic', sans-serif;
+
 }
 #hero h2 span {
   color: #fff;
@@ -145,7 +149,7 @@ h1, h2, h3, h4, h5, h6 {
   display: inline-block;
 }
 #hero .actions a {
-  font-family: "Raleway", sans-serif;
+  font-family: "Raleway", 'IBM Plex Sans Arabic', sans-serif;
   text-transform: uppercase;
   font-weight: 500;
   font-size: 16px;
@@ -241,7 +245,7 @@ h1, h2, h3, h4, h5, h6 {
   align-items: center;
   justify-content: space-between;
   padding: 10px 0 10px 30px;
-  font-family: "Raleway", sans-serif;
+  font-family: "Raleway", 'Noto Kufi Arabic', sans-serif;
   font-size: 14px;
   color: #fff;
   white-space: nowrap;
@@ -537,7 +541,7 @@ section {
   padding-top: 20px;
 }
 #subscribe .subscribe-btn {
-  font-family: "Raleway", sans-serif;
+  font-family: "Raleway", 'IBM Plex Sans Arabic', sans-serif;
   text-transform: uppercase;
   font-weight: 500;
   font-size: 16px;
@@ -575,7 +579,7 @@ section {
   padding-top: 20px;
 }
 #materilas .subscribe-btn {
-  font-family: "Raleway", sans-serif;
+  font-family: "Raleway", 'IBM Plex Sans Arabic', sans-serif;
   text-transform: uppercase;
   font-weight: 500;
   font-size: 16px;
