@@ -2,4 +2,4 @@ files:
   - source: '*.html'
     ignore:
       - vendor
-    translation: /%three_letters_code%/%three_letters_code%_%original_file_name%
+    translation: '%three_letters_code%_%original_file_name%'
