@@ -1,3 +1,4 @@
+[![Crowdin](https://badges.crowdin.net/oscsa-website-translation/localized.svg)](https://crowdin.com/project/oscsa-website-translation)
 
 This is the official website for Open Science Community Saudi Arabia, which can be found [here](osc-sa.netlify.app/). It's still under construction.
 
