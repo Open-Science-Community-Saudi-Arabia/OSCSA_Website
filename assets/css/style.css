@@ -35,6 +35,7 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 400;
   margin: 0 0 20px 0;
   padding: 0;
+  background-color: #030f176c;
 }
 
 /* Prelaoder */
@@ -468,6 +469,7 @@ section {
 .section-description {
   text-align: center;
   margin-bottom: 40px;
+  background-color: rgb(223, 225, 225); 
 }
 
 .section-description a {
