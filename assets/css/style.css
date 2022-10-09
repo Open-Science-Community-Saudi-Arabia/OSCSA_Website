@@ -1167,16 +1167,6 @@ section {
   padding: 15px;
 }
 
-@media (max-width: 850px) {
-  .column {
-    flex-direction: column;
-    align-items: center;
-  }
-  .column img {
-    width: 90%;
-  }
-}
-
 #contact img {
   padding: 20px;
 }
