@@ -82,6 +82,45 @@ h1, h2, h3, h4, h5, h6 {
   opacity: 1;
 }
 
+/* ----------------------------------------------------------
+# Back to home button
+--------------------------------------------------------- */
+
+.back-to-home {
+  position: relative;
+  visibility: visible;
+  left: 15px;
+  bottom: 15px;
+  z-index: 996;
+  background: #1bd6fc;
+  width: 110px;
+  height: 40px;
+  border-radius: 4px;
+  transition: all 0.4s;
+}
+
+.back-to-home i {
+  font-size: 10px;
+  color: #fff;
+  line-height: 0;
+}
+
+.back-to-home:hover {
+  background: #28b2d1;
+  color: #fff;
+}
+
+.back-to-home.active {
+  visibility: visible;
+  opacity: 1;
+} 
+
+.back-to-home-text {
+  font-weight: 100;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: #fff;
+}
+
 /*--------------------------------------------------------------
 # Welcome
 --------------------------------------------------------------*/
