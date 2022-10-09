@@ -6,7 +6,22 @@
 This is the official website for Open Science Community Saudi Arabia, which can be found [here](osc-sa.netlify.app/). It's still under construction.
 
 ### TODO
-- Add accessibility elements to the website
+- Add accessibility elements to the website.
+
+### How to start contributing to the website. 
+
+- Fork the OSCSA_website
+
+-  Website is static, we are using plain Html and css,php. if you want to change something in codebase of website just change it and save it. 
+you will see the change. 
+
+- then made the pull request. 
+
+
+NOTE : 
+> ar-index.html -- Arabic version of the website.
+
+> index.html -- English version of the website.
 
 ### License
 https://bootstrapmade.com/license/
