@@ -654,6 +654,21 @@ section {
   border: 2px solid #03c4eb;
 }
 
+/* Collectives Section */
+#collective {
+  background: linear-gradient(
+      rgba(255, 255, 255, 0.9),
+      rgba(255, 255, 255, 0.9)
+    ),
+    url("../img/services-bg.jpeg") fixed center center;
+  background-size: cover;
+  padding: 80px 0;
+}
+
+#collective .collective-img {
+  text-align: center;
+}
+
 /* Materials Section
 --------------------------------*/
 #materilas {
