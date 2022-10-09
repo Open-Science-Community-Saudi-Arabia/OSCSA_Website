@@ -450,6 +450,29 @@ h1, h2, h3, h4, h5, h6 {
 
 /*--------------------------------------------------------------
 # Sections
+
+
+
+/* Open source Section */
+
+.service-title1{
+  font-size: 70px;
+  text-align: center;
+  font-weight: 700;
+  color: #111;
+  padding: 20px;
+}
+
+.iframe-container{
+  margin: 50px;
+}
+  
+
+.illustration{
+  margin-bottom: 20px;
+}
+
+/* END */
 --------------------------------------------------------------*/
 /* Sections Common
 --------------------------------*/
