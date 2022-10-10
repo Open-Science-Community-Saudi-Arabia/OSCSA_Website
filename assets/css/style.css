@@ -470,6 +470,7 @@ section {
   margin-bottom: 40px;
 }
 
+
 .section-description a {
   color: #166497;
 }
@@ -481,6 +482,26 @@ section {
   margin: 0 auto;
   margin-bottom: 20px;
 }
+
+
+/* Open Access Section*/
+.section-details {
+  text-align:justify;
+  margin:40px 200px;
+  
+}
+
+.section-img{
+ display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+
+}
+.section-ul li{
+  list-style: none;
+}
+/* Ending Open-Access Section*/
 
 /* Get Started Section
 --------------------------------*/
@@ -542,6 +563,7 @@ section {
 #services .service-item {
   margin-bottom: 20px;
 }
+
 
 #services .service-icon {
   float: left;
@@ -1080,6 +1102,9 @@ section {
   .breadcrumbs ol li {
     display: inline-block;
   }
+  .flex-container{
+    display: block;
+  }
 }
 
 /*--------------------------------------------------------------
@@ -1118,3 +1143,55 @@ section {
 #contact img {
   padding: 20px
 }
+
+
+
+/*-----------------------------------------------------------
+-----------------Services Section----------------------------
+--------------------------------------------------------------*/
+
+.flex-container{
+ display: flex;
+ flex-direction: row;
+ 
+ height: 150vh;
+ justify-content: center;
+ align-items: center;
+ flex-wrap: wrap;
+ margin:20px 60px
+}
+.flex-item{
+margin: 30px auto;
+width: 300px;
+height: 370px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+
+}
+.flex-item img{
+ 
+  height: 150px;
+  width: 150px;
+ 
+}
+.flex-item h2, p{
+  margin: 5px 25px;
+}
+.flex-item .btn1{
+    font-size: 27px;
+    display: block;
+    width: 170px;
+    margin: 19px auto;
+    border: 1px solid black;
+    border-radius: 50px;
+    background-color: white;
+}
+.flex-item .btn1:hover{
+  background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+/*-------------------------------------------*/
