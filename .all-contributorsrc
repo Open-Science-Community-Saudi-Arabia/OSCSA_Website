@@ -7,12 +7,22 @@
   "commitConvention": "angular",
   "contributors": [
     {
+    all-contributors/add-sandygudie
       "login": "sandygudie",
       "name": "Goodnews Sandy",
       "avatar_url": "https://avatars.githubusercontent.com/u/54219127?v=4",
       "profile": "https://goodnewssandy.netlify.app/",
       "contributions": [
-        "bug"
+        "bug" 
+       },{
+      all-contributors/add-okerekechinweotito
+      "login": "okerekechinweotito",
+      "name": "Okereke Chinweotito",
+      "avatar_url": "https://avatars.githubusercontent.com/u/65835404?v=4",
+      "profile": "http://okereke.dev",
+      "contributions": [
+        "infra"}
+
       ]
     }
   ],
