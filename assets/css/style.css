@@ -669,6 +669,24 @@ section {
   text-align: center;
 }
 
+#collective .visit {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+#collective .visit a {
+  background: #03c4eb;
+  border: 0;
+  padding: 10px 24px;
+  color: #fff;
+  transition: 0.4s;
+}
+
+#collective .visit a:hover {
+  background: #25d8fc;
+}
+
 /* Materials Section
 --------------------------------*/
 #materilas {
