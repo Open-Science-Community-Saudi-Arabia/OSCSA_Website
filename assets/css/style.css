@@ -683,10 +683,11 @@ section {
   justify-content: center;
   align-items: center;
 }
-#blog .service-item{
+#blog .blog-item{
   background-color: #f6f6f6;
   margin: .5rem .5rem;
   max-width: 290px;
+  border-radius: 7px;
 }
 #blog .blog{
   margin: 10px 0;

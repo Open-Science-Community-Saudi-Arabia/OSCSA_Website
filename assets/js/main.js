@@ -255,3 +255,9 @@
   });
 
 })()
+
+// Transition on scroll in blog section
+window.scrollTo('scroll', function () {
+  const section = document.getElementById('blog')
+  console.log(section.offsetTop)
+})
