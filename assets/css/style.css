@@ -1131,6 +1131,7 @@ section {
 .video-frame{
   width: 75%;
   height: 400px;
+  margin-bottom: 24px;
 }
 
 #open-edu-res .section-description {
@@ -1156,7 +1157,7 @@ section {
   height: 200px;
 }
 
-.section-text{
+.center-text{
   margin-top: 32px;
   text-align: center;
 }
@@ -1167,4 +1168,15 @@ section {
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-top: 12px;
+}
+
+
+.justify-text{
+  margin-bottom: 16px;
+}
+
+.citation{
+  text-align: justify;
+  font-size: 13px;
 }
