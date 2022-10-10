@@ -1118,3 +1118,63 @@ section {
 #contact img {
   padding: 20px
 }
+
+.sub-page {
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/css/bg1.jpeg) fixed center center;
+  background-size: cover;
+  padding: 80px 0;
+  font-size: 18px;
+  color: #fff;
+}
+
+iframe {
+  width: 600px;
+  height: 470px;
+}
+
+@media (max-width: 786px) {
+	.sub-page-title {
+		text-align: center;
+	}
+	iframe {
+		width: 450px;
+		height: 300px;
+	}
+}
+
+.img-wrap {
+	display: flex;
+	justify-content: center;
+	margin: 2%;
+  }
+
+.how-it-works {
+	padding: 5%;
+margin-top: 5%;
+	background-color:rgb(255, 255, 255);
+	color: rgb(0, 0, 0);
+	font-size: 18px;
+}
+.how-it-works p, h2{
+ text-align: center;
+}
+
+.how-it-works img {
+	width: 500px;
+	height: 450px;
+	border-radius: 5px;
+	margin: 5%;
+}
+
+.how-it-works a {
+	color: #dc6511;
+	text-decoration: underline;
+}
+
+.return-home {
+	background: #03C4EB;
+	columns: #fff;
+	padding: 10px;
+	align-self: center;
+	margin: 5%;
+}
