@@ -1,15 +1,15 @@
 body {
   background: #fff;
   color: #666666;
-  family: 'IBM Plex Sans Arabic', sans-serif;
+  family: "IBM Plex Sans Arabic", sans-serif;
 }
 
 #services .service-icon-ar {
   float: right;
-  background: #03C4EB;
+  background: #03c4eb;
   border-radius: 50%;
   transition: 0.5s;
-  border: 1px solid #03C4EB;
+  border: 1px solid #03c4eb;
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -26,7 +26,7 @@ body {
   background: #fff;
 }
 #services .service-item:hover .service-icon-ar i {
-  color: #03C4EB;
+  color: #03c4eb;
 }
 
 #services .service-title-ar {
@@ -43,16 +43,13 @@ body {
   line-height: 24px;
 }
 
-
 #about .about-img-ar {
   overflow: hidden;
   padding-top: 3cm;
-
 }
 #about .about-img-ar img {
   max-width: 100%;
-  padding-top: 3cm,
-
+  padding-top: 3cm;
 }
 @media (max-width: 768px) {
   #about .about-img-ar {
@@ -66,3 +63,37 @@ body {
     padding-top: 3cm;
     /* padding-bottom: 30px;  */
   }
+}
+
+/* Collectives Section */
+#collective {
+  background: linear-gradient(
+      rgba(255, 255, 255, 0.9),
+      rgba(255, 255, 255, 0.9)
+    ),
+    url("../img/services-bg.jpeg") fixed center center;
+  background-size: cover;
+  padding: 80px 0;
+}
+
+#collective .collective-img {
+  text-align: center;
+}
+
+#collective .visit {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+#collective .visit a {
+  background: #03c4eb;
+  border: 0;
+  padding: 10px 24px;
+  color: #fff;
+  transition: 0.4s;
+}
+
+#collective .visit a:hover {
+  background: #25d8fc;
+}
