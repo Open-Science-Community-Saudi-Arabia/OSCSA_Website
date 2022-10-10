@@ -22,3 +22,7 @@ Please complete the following sections when you open an issue.
 
 - [ ] *Lorem ipsum dolor sit amet, consectetur adipiscing.*
 - [ ] *Lorem ipsum dolor sit amet, consectetur adipiscing.*
+
+### Who want to work on this issue?
+
+<!-- Please indicate if you wants to be assigned to the issue -->
