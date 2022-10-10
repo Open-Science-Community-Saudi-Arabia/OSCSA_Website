@@ -1,7 +1,7 @@
 ---
 name: Default Template
 about: Use this template if you do not know which template to use
-title: "[DATE]: [QUESTION or ISSUE]"
+title: "[DATE]: "QUESTION or ISSUE"
 labels: question
 ---
 
