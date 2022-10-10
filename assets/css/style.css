@@ -35,6 +35,19 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 400;
   margin: 0 0 20px 0;
   padding: 0;
+  /* background-color: #3493d30d; */
+  
+}
+
+h1 {
+  background-color: rgba(17, 17, 17, 0.368);
+  margin-left: 10rem;
+  margin-left: 30rem;
+}
+
+h2 {
+  background-color: rgba(17, 17, 17, 0.368);
+
 }
 
 /* Prelaoder */
@@ -468,6 +481,7 @@ section {
 .section-description {
   text-align: center;
   margin-bottom: 40px;
+  background-color: rgb(223, 225, 225); 
 }
 
 .section-description a {
