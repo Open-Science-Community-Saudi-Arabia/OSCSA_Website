@@ -1074,7 +1074,7 @@ section {
   }
 
   .breadcrumbs ol {
-    display: block;
+    /* display: block; */
   }
 
   .breadcrumbs ol li {
