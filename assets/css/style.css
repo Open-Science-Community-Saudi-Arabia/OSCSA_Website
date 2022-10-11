@@ -339,6 +339,20 @@ h1, h2, h3, h4, h5, h6 {
   visibility: visible;
 }
 
+.dropdown-content li a {
+  display: none;
+  width: 150px;
+  
+}
+.dropdown-content {
+  width: 150px;
+  text-align: center;
+}
+.dropdown:hover .dropdown-content li a {
+   display: block;
+   margin-top: 0;
+ }
+
 @media (max-width: 1366px) {
   .navbar .dropdown .dropdown ul {
     left: -90%;
