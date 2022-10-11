@@ -545,6 +545,61 @@ section {
   color: #166497;
 }
 
+/* Code of Conduct Section
+--------------------------------*/
+#codeofconduct {
+  margin-top: 10px;
+}
+
+#code-of-conduct .code-of-conduct-content {
+  background: #fff;
+}
+
+#code-of-conduct .code-of-conduct-title {
+  color: #333;
+  font-weight: 700;
+  font-size: 28px;
+}
+
+#code-of-conduct .code-of-conduct-text {
+  line-height: 26px;
+  margin-bottom: 15px;
+}
+
+#code-of-conduct .code-of-conduct-text:last-child {
+  margin-bottom: 0;
+}
+
+#code-of-conduct a {
+  color: #166497;
+}
+
+#code-of-conduct {
+  background: #fff;
+  padding-bottom: 80px;
+}
+
+#code-of-conduct .code-of-conduct-img {
+  overflow: hidden;
+}
+
+#code-of-conduct .code-of-conduct-img img {
+  max-width: 100%;
+  padding-block: 10rem;
+}
+
+@media (max-width: 768px) {
+  #code-of-conduct .code-of-conduct-img {
+    height: auto;
+  }
+
+  #code-of-conduct .code-of-conduct-img img {
+    margin-left: 0;
+    padding-top: 0;
+    padding-bottom: 30px;
+  }
+}
+
 /* Services Section
 --------------------------------*/
 #services {
