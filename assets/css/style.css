@@ -97,6 +97,9 @@ h1, h2, h3, h4, h5, h6 {
   #hero {
     background-attachment: fixed;
   }
+  .center{
+    width: 50%;
+  }
 }
 
 #hero .hero-logo {
@@ -130,6 +133,9 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 28px;
     line-height: 36px;
   }
+     .center {
+       width: 60%;
+     }
 }
 
 #hero h2 {
@@ -209,6 +215,9 @@ h1, h2, h3, h4, h5, h6 {
   #header {
     height: 60px;
   }
+     .center {
+       width: 50%;
+     }
 }
 
 #header.fixed-top {
@@ -347,6 +356,9 @@ h1, h2, h3, h4, h5, h6 {
   .navbar .dropdown .dropdown:hover>ul {
     left: -100%;
   }
+     .center {
+       width: 50%;
+     }
 }
 
 /**
@@ -369,6 +381,12 @@ h1, h2, h3, h4, h5, h6 {
   .navbar ul {
     display: none;
   }
+}
+
+@media (max-width: 320px) {
+  .center {
+      width: 60%;
+    }
 }
 
 .navbar-mobile {
