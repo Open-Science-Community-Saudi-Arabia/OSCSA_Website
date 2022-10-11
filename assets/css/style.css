@@ -511,6 +511,13 @@ section {
   max-width: 100%;
 }
 
+#google_translate_element {
+  width: 200px;
+  padding-top: 40px;
+  margin-left: auto;
+  margin-right: 100px;
+ }
+
 @media (max-width: 768px) {
   #about .about-img {
     height: auto;
