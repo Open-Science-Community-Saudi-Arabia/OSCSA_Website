@@ -9,7 +9,7 @@ This template was taken from the [Turing Way](https://github.com/alan-turing-ins
  -->
  
  
-#### Which task you want to work on? (Example:. Task 3.2)
+#### Which task do you want to work on? 
 
 <!-- 
 
