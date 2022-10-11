@@ -35,7 +35,13 @@ Make sure it's reflected on both the Arabic and English pages.
 > You don't need to know Arabic; there will be another intern who will be helping with Arabic. but use Google translate for the demo and submit a PR.
 -->
 
-- [ ] *Choose task*
+- [ ] *Task 1*
+- [ ] *Task 2*
+- [ ] *Task 3*
+- [ ] *Task 4*
+- [ ] *Task 5*
+- [ ] *Task 6*
+- [ ] *Unlisted Task*
 
 #### Expected behaviour
 <!-- Tell us what you thought would happen. 
