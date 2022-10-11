@@ -1067,7 +1067,9 @@ section {
   color: gray;
   content: "/";
 }
-
+.text-justify {
+  text-align: justify;
+}
 @media (max-width: 768px) {
   .breadcrumbs .d-flex {
     display: block !important;
@@ -1079,6 +1081,9 @@ section {
 
   .breadcrumbs ol li {
     display: inline-block;
+  }
+  .text-justify {
+    text-align: left;
   }
 }
 
