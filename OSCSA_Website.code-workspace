@@ -1,0 +1,11 @@
+{
+	"folders": [
+		{
+			"name": "OSCSA_Website",
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.port": 5501
+	}
+}
