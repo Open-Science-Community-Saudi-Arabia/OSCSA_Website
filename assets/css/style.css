@@ -1137,6 +1137,23 @@ section {
 .serv-img img{
   width: 100%;
 }
+.serv-text:first-child{
+  margin-bottom: 0.5rem;
+}
+.img-ref{
+  font-size: 1rem;
+  color: #111;
+  font-weight: 700;
+  margin-top: 1rem;
+}
+.img-ref span{
+  font-weight: 100;
+}
+.vid-ref{
+  font-style: italic;
+  margin-top: 0.7rem;
+  font-size: 0.9rem;
+}
 @media (max-width: 768px) {
   .serv-img{
     width: 80%;
