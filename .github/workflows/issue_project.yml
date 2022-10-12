@@ -15,4 +15,5 @@ jobs:
           project-url: https://github.com/orgs/Open-Science-Community-Saudi-Arabia/projects/3/
           github-token: ${{ secrets.ADD_TO_PROJECT_PAT }}
           labeled: outreachy
-          label-operator: NOT
+          label-operator: AND
+        
