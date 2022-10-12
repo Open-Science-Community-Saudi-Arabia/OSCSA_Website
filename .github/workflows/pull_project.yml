@@ -3,7 +3,7 @@ name: Add pull requests from Outreachy to projects
 on:
   pull_request:
     types:
-      - labeled, opened
+      - labeled
 
 jobs:
   add-to-project:
