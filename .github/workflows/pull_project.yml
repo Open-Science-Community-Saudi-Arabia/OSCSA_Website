@@ -3,14 +3,14 @@ name: Add pull requests from Outreachy to projects
 on:
   pull_request:
     types:
-      - labeled
+      - labeled, opened
 
 jobs:
   add-to-project:
     name: Add issue to project
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/add-to-project@v0.3.0
+      - uses: actions/add-to-project@v0.0.5
         with:
           project-url: https://github.com/orgs/Open-Science-Community-Saudi-Arabia/projects/3/
           github-token: ${{ secrets.ADD_TO_PROJECT_PAT }}
