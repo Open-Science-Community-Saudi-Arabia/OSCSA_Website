@@ -96,15 +96,25 @@ h1, h2, h3, h4, h5, h6 {
 @media (min-width: 1024px) {
   #hero {
     background-attachment: fixed;
+    background-position: top center;
   }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 900px){
+  #hero {
+    background-repeat: no-repeat;
+    background-position: 80% 40%;
+  }
+}
+
+@media screen and (max-width: 450px) {
   #hero {
     background-repeat: no-repeat;
     background-position: 70% 40%;
   }
 }
+
+
 
 #hero .hero-logo {
   margin: 20px;
