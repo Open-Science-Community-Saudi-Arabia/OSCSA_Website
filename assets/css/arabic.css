@@ -1,7 +1,7 @@
 body {
   background: #fff;
   color: #666666;
-  family: 'IBM Plex Sans Arabic', sans-serif;
+  font-family: 'IBM Plex Sans Arabic', sans-serif;
 }
 
 #services .service-icon-ar {
@@ -64,5 +64,10 @@ body {
     margin-left: 0;
     margin-top: 3cm;
     padding-top: 3cm;
-    /* padding-bottom: 30px;  */
-  }
+  };
+
+  #icon:hover{
+    background-color: white;
+  };
+
+  

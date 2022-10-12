@@ -1101,6 +1101,9 @@ section {
   font-size: 13px;
   color: #ccc;
 }
+#icon:hover{
+  background-color: white;
+} 
 
 /*--------------------------------------------------------------
 # logo
