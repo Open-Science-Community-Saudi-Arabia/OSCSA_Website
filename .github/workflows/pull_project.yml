@@ -7,12 +7,12 @@ on:
 
 jobs:
   add-to-project:
-    name: Add issue to project
+    name: Add PR to project
     runs-on: ubuntu-latest
     steps:
       - uses: actions/add-to-project@v0.0.5
         with:
           project-url: https://github.com/orgs/Open-Science-Community-Saudi-Arabia/projects/3/
-          github-token: ${{ secrets.ADD_TO_PROJECT_PAT }}
+          github-token: ${{ secrets.ADD_TO_PROJECT_PAT2 }}
           labeled: outreachy
           label-operator: AND
