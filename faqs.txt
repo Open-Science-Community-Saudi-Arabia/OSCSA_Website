@@ -1,0 +1,53 @@
+What is open source software?
+Open source software is software that anyone can use. Many developers in the open-source community create their software for free and make it accessible to everyone.
+Open source software has been a huge asset of innovation over the years. 
+This allows for many innovations to be brought to life, such as Android, Linux and Firefox. 
+
+What is the difference between open source and closed sourced?
+Open source software is the opposite of closed source. In the case of open source, the code is publicly accessible, which means anyone can download it, edit it, make changes and improvements of their own, and make it visible to the world.
+
+What is open work?
+Open work is protected by a number of non-exclusive licences, which allows authors to use their work in many different ways and sometimes even commercialise it. 
+In general, any other party than the one who first released the complete piece of work can redistribute it as long as they make it clear that this is not their original work. 
+All contributors must remain properly credited.
+
+What is Open source hardware? 
+Open source hardware is a term used to describe hardware whose design is publicly accessible. 
+This means that anyone can download the necessary files to make their own version of the device or understand how it works. 
+It is fundamental ingredient that allows for open source hardware to exist, In the current global manufacturing ecosystem having access to academic research and scientific knowledge is something not often shared publicly.
+
+Why FAIR Principles matter and why they're important.
+They were first suggested by the Organization for Cooperation and Development (OECD) as guidelines for international development and aid policies in order to maintain and strengthen the public's trust.
+These principles help protect you, the consumer. For example, some media organizations may include paid advertisements in their news reports.
+
+What are open educational resources?
+Open Educational Resources are free resources that are available to the public and can be accessed freely. 
+This includes instructional videos, tutorials and high-quality educational material that teachers can use to expand the reach and quality of their teaching. 
+Open educational resources are not just limited to primary education, although the existing resources are mostly geared toward that audience, but also include resources for high school, undergraduate and even graduate students.
+
+What is the importance of open education resources in the digital era?
+Open education resources has transformed what universities across the world are doing. They are changing the way students learn. Teachers are playing a larger role in the classroom, while students are more engaged with what they're learning.
+With the ability to have all of your class materials and homework online, there's no need to worry about carrying around heavy textbooks and notes back and forth from class, and you'll be able to do your work at any time you have online access! Organizing your work has never been easier, with the ability to organize your work into folders and having all of your files as PDF's and on one document.
+Open education resources provide a valuable gateway to higher education. They help millions of people become more educated and are available to anyone in the world through the internet. 
+Open educational resources are a great resource for anyone who can't afford college, but still wants to receive an education.The biggest advantage of open educational resources is their portability. They can be accessed anywhere at any time, unlike physical textbooks that can't be taken on the go.  
+
+Why are educational resources always seen by consumers or users as inadequate?
+One reason is that consumers and the public in general do not always recognize the resources as being of high quality. Some people might feel that educational resources are boring and could be more fun to watch or read than to really learn. By making our educational resources more fun and exciting, we can help them to be more enticing and engaging for the general public. We should always keep in mind that the purpose for our resources is to educate, so it's vital that we provide the best information we can, in order to help all of our target recipients.
+
+what is fair principles?
+The FAIR principles act as a guide to assist data publishers in making their digital research artifacts findable, accessible, interoperable and re-usable. The FAIR principles are a set of guidelines for publishing data online. These guidelines aim to make research data open, accessible, reusable and machine-readable.
+
+What are the principles of assessment that are fair?
+Assessment is a fair principle that is incorporated into several systems of assessment. It is commonly used in the school system, job industry, and prison system. 
+To be fair, assessment should involve several aspects that involve being accurate, fair, and equitable. To assess accurately, it requires using a variety of measurement tools that are not biased on a person's race, ***, age, social class, or any other factors. 
+To ensure fairness and equity, any analysis of assessment should be free from favoritism, political pressure, or conformity. Moreover, the evaluation should be free from interference from the outside that can affect the assessment.
+     
+Where and how to practice principles of assessment?
+All assessment practices should be fair to students, parents and educators. However, not all assessments are created equal. Your local education association can help you decide if the assessments you are considering are fair. 
+They can provide you with a set of principles that you can use to evaluate if any proposed assessments are fair or unfair. By doing so you can determine if the assessment is fair for everyone concerned.
+
+what is open access?
+Open Access refers to online, free of cost access to peer reviewed scientific content with limited copyright and licensing restrictions. Many scientific organizations provide free access to their scientific journals.
+Open access is a movement trying to make scientific knowledge free to the world. Open access releases scientific information so that everyone can use and read it. 
+
+
