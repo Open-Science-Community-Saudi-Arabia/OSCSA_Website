@@ -1,14 +1,14 @@
-# ============ WELCOME TO OSCSA ==============================
+                                                             WELCOME TO OSCSA 
 
 OSCSA welcomes contributors from around the world that are interested in contributing to its repositries
-
-# ============ CODE OF CONDUCTS ==============================
+ 
+                                                             CODE OF CONDUCTS 
 
 All contributors are required to read and abide by the code of conducts of OSCSA.
 This is to ensure that the OSCSA environment is a safe working/contribution for all contributors
 link: https://github.com/Open-Science-Community-Saudi-Arabia/Open-Science-Community-in-Saudi/blob/main/CODE_OF_CONDUCT.md
 
-# ============ HOW TO CONTRIBUTE TO OSCSA WEBSITE ============
+                                                     HOW TO CONTRIBUTE TO OSCSA WEBSITE 
 
 The OSCSA website is the official website for the OSCSA community
 The website was built with
@@ -19,7 +19,7 @@ The website was built with
 
 Contribution can either be technical or non-technical, so dont be worried if you have no coding knowledge.
 
-# ============= STEPS TO CONTRIBUTE ===========================
+                                                             STEPS TO CONTRIBUTE 
 
 -Start by forking and cloning the OSCSA website repository
 link : https://github.com/Open-Science-Community-Saudi-Arabia/OSCSA_Website
@@ -57,4 +57,4 @@ e.g fixes #24
 -wait for it to be reviewed and merged
 -Congrats on your first contribution
 
-# ====================== HURRAY!!!! ======================
+                                                                       HURRAY!!!!
