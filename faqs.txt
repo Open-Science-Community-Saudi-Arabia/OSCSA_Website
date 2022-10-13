@@ -39,7 +39,7 @@ The FAIR principles act as a guide to assist data publishers in making their dig
 
 What are the principles of assessment that are fair?
 Assessment is a fair principle that is incorporated into several systems of assessment. It is commonly used in the school system, job industry, and prison system. 
-To be fair, assessment should involve several aspects that involve being accurate, fair, and equitable. To assess accurately, it requires using a variety of measurement tools that are not biased on a person's race, ***, age, social class, or any other factors. 
+To be fair, assessment should involve several aspects that involve being accurate, fair, and equitable. To assess accurately, it requires using a variety of measurement tools that are not biased on a person's race, gender, age, social class, or any other factors. 
 To ensure fairness and equity, any analysis of assessment should be free from favoritism, political pressure, or conformity. Moreover, the evaluation should be free from interference from the outside that can affect the assessment.
      
 Where and how to practice principles of assessment?
