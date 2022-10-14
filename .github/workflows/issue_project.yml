@@ -1,0 +1,19 @@
+name: Adds all issues with 'outreachy' label to project board
+
+on:
+  issues:
+    types:
+      - opened
+
+jobs:
+  add-to-project:
+    name: Add issue to project
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/add-to-project@v0.3.0
+        with:
+          project-url: https://github.com/orgs/Open-Science-Community-Saudi-Arabia/projects/3/
+          github-token: ${{ secrets.ADD_TO_PROJECT_PAT }}
+          labeled: outreachy
+          label-operator: AND
+        

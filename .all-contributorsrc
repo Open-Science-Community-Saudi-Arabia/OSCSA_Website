@@ -1,0 +1,52 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "commitConvention": "angular",
+  "contributors": [
+    {
+      "login": "sandygudie",
+      "name": "Goodnews Sandy",
+      "avatar_url": "https://avatars.githubusercontent.com/u/54219127?v=4",
+      "profile": "https://goodnewssandy.netlify.app/",
+      "contributions": [
+        "bug"
+      ]
+    },
+    {
+      "login": "okerekechinweotito",
+      "name": "Okereke Chinweotito",
+      "avatar_url": "https://avatars.githubusercontent.com/u/65835404?v=4",
+      "profile": "http://okereke.dev",
+      "contributions": [
+        "infra"
+      ]
+    },
+    {
+      "login": "Jolah1",
+      "name": "Okunlade Jolade",
+      "avatar_url": "https://avatars.githubusercontent.com/u/99138852?v=4",
+      "profile": "https://www.linkedin.com/in/jolade-okunlade-1840a6138",
+      "contributions": [
+        "bug"
+      ]
+    },
+    {
+      "login": "mildrette",
+      "name": "Mildred",
+      "avatar_url": "https://avatars.githubusercontent.com/u/99267408?v=4",
+      "profile": "https://github.com/mildrette",
+      "contributions": [
+        "bug"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "skipCi": true,
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "projectName": "OSCSA_Website",
+  "projectOwner": "Open-Science-Community-Saudi-Arabia"
+}
