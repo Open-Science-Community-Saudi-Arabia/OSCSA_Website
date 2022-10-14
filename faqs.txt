@@ -1,7 +1,7 @@
 What is open source software?
 Open source software is software that anyone can use. Many developers in the open-source community create their software for free and make it accessible to everyone.
 Open source software has been a huge asset of innovation over the years. 
-This allows for many innovations to be brought to life, such as Android, Linux and Firefox. (https://osc-ksa.com/. Accessed 13 October, 2022).
+This allows for many innovations to be brought to life, such as Android, Linux and Firefox. (https://osc-ksa.com/. Accessed 12 October, 2022).
 
 What is the difference between open source and closed sourced?
 Open source software is the opposite of closed source. In the case of open source, the code is publicly accessible, which means anyone can download it, edit it, make changes and improvements of their own, and make it visible to the world.(https://edu.gcfglobal.org/en/basic-computer-skills/open-source-vs-closed-source-software/1/.Accessed 13 October 2022).
