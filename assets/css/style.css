@@ -869,6 +869,7 @@ section {
 }
 
 #testimonials .profile .pic {
+  display: inline-block;
   border-radius: 50%;
   border: 6px solid #fff;
   margin-bottom: 15px;
@@ -1145,6 +1146,20 @@ section {
 --------------------------------------------------------------*/
 .row {
   justify-content: center;
+}
+
+.row-unisco {
+  display: flex;
+  align-items: center;
+}
+
+@media all and (max-width: 800px) {
+  .row-unisco {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+  }
 }
 
 .column {
