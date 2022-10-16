@@ -357,6 +357,7 @@ h6 {
 .dropdown {
   position: relative;
   display: inline-block;
+  cursor: pointer;
 }
 
 
