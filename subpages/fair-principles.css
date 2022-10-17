@@ -1,0 +1,37 @@
+/* .media__container {
+    width: 800px;
+    height: 800px;
+} */
+
+ .fairImage {
+    width: 80%;
+    height: 350px;
+}
+
+@media (max-width: 1000px) {
+    .fairImage {
+        height: 250px !important;
+    }
+    
+}
+
+@media (max-width: 770px) {
+    .fairImage {
+        height: 200px !important;
+    }
+    
+}
+
+@media (max-width: 550px) {
+    .fairImage {
+        height: 150px !important;
+    }
+    
+}
+
+@media (max-width: 550px) {
+    .fairImage {
+        height: 150px !important;
+    }
+    
+}
