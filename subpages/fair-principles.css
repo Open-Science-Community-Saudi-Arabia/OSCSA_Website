@@ -3,7 +3,22 @@
     height: 800px;
 } */
 
- .fairImage {
+.acronym_fair_principles {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px; 
+}
+
+@media (max-width: 600px) {
+    .acronym_fair_principles {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+}
+
+
+
+.fairImage {
     width: 80%;
     height: 350px;
 }
@@ -34,4 +49,29 @@
         height: 150px !important;
     }
     
+}
+
+@media (max-width: 1000px) {
+    iframe {
+        height: 600px;
+    }
+    
+}
+
+@media (max-width: 770px) {
+    iframe {
+        height: 450px;
+    }
+    
+}
+
+@media (max-width: 770px) {
+    iframe {
+        height: 300px;
+    }
+    
+}
+
+.closing__container {
+    margin-bottom: 40px;
 }
