@@ -1,0 +1,22 @@
+.breadcrumbs {
+    margin: 5em 0 0 0;
+}
+
+.events-subpage-container {
+    padding: 0 5em;
+    margin: 2em 0 0 0;
+}
+
+
+@media screen and (max-width: 900px) {
+    .events-subpage-container {
+        padding: 0 2em;
+        margin: 2em 0 0 0;
+    }
+
+}
+
+.events-subpage-container a:hover {
+    text-decoration: underline;
+
+}
