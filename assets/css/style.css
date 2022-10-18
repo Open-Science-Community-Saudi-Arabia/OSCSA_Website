@@ -987,6 +987,8 @@ section {
 #event .row .card-body .card-text {
   font-style: italic;
   font-size: 14px;
+  margin: 0;
+  padding: 0;
 }
 
 /* Contact Section
