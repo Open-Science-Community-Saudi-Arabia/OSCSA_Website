@@ -1197,14 +1197,22 @@ section {
 #events .event-card{
   transform: translateY(0);
   animation: appear 2s forwards ease-in-out;
-  max-height: 350px;
+  max-height: 100%;
   min-height: 345px;
-  min-width: 297px;
+  width: 297px;
   border-radius: 10px;
   box-shadow: 1px 1px 1px grey;
   margin: 0.2rem .3rem;
   transform-origin: center;
   transition: transform 2s;
+}
+.event-image{
+  /* width: 103%; */
+  height: 100%;
+}
+.event-image img{
+  width: 103%;
+  height: 100%;
 }
 #events .event-card:hover{
   transform: translateY(-1rem) !important;
@@ -1263,6 +1271,9 @@ section {
 }
 @media screen and (max-width: 996px) {
   .event-items{
-    grid-template-columns: 1fr;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
   }
 }
