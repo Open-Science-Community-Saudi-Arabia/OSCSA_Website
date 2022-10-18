@@ -995,6 +995,32 @@ section {
 	font-size: 14px;
 }
 
+/* Event Details Section
+--------------------------------*/
+#event-details {
+	padding: 90px 0;
+}
+
+#event-details .event-image {
+	display: block;
+	margin-inline: auto;
+	width: 60%;
+}
+
+#event-details .event-speaker {
+	font-style: italic;
+}
+
+#event-details .event-language {
+	font-size: 15px;
+}
+
+@media (max-width: 768px) {
+	#event-details .event-image {
+		width: 80%;
+	}
+}
+
 /* Contact Section
 --------------------------------*/
 #contact {
