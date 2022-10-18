@@ -8,15 +8,36 @@
 }
 
 
+
+.events-subpage-container a:hover {
+    text-decoration: underline;
+
+}
+
+.details-image-wrapper {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+.details-image-wrapper img {
+    width: 30em;
+}
+
+
 @media screen and (max-width: 900px) {
     .events-subpage-container {
         padding: 0 2em;
         margin: 2em 0 0 0;
     }
 
-}
+    .details-image-wrapper {
+        display: flex;
+        justify-content: space-around;
+        flex-flow: column wrap;
+    }
 
-.events-subpage-container a:hover {
-    text-decoration: underline;
-
+    .details-image-wrapper img {
+        width: 20em;
+    }
 }
