@@ -1001,10 +1001,14 @@ section {
 	padding: 90px 0;
 }
 
+#event-details h4 {
+	font-weight: 500;
+}
+
 #event-details .event-image {
 	display: block;
 	margin-inline: auto;
-	width: 60%;
+	width: 80%;
 }
 
 #event-details .event-speaker {
@@ -1013,12 +1017,6 @@ section {
 
 #event-details .event-language {
 	font-size: 15px;
-}
-
-@media (max-width: 768px) {
-	#event-details .event-image {
-		width: 80%;
-	}
 }
 
 /* Contact Section
