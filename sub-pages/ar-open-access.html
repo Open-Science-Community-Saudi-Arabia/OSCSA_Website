@@ -89,57 +89,8 @@
     data-aos-delay="0"
     cz-shortcut-listen="true"
   >
-    <!-- ======= Hero Section ======= -->
-    <section id="hero">
-      <div class="hero-container">
-        <div data-aos="fade-in" class="aos-init aos-animate">
-          <div class="hero-logo">
-            <!-- <img class="" src="assets/img/landing/logo.png" alt="Imperial" width = "300px"> -->
-          </div>
-
-          <h1>
-            <font style="vertical-align: inherit"
-              ><font style="vertical-align: inherit"
-                >مجتمع العلوم المفتوحة بالمملكة العربية السعودية</font
-              ></font
-            >
-          </h1>
-          <h2>
-            <font style="vertical-align: inherit"
-              ><font style="vertical-align: inherit">نحن نشجع </font></font
-            ><span
-              class="typed"
-              data-typed-items="Openness, Transparency, Reproducibility"
-              >Reproducibi</span
-            ><span class="typed-cursor" aria-hidden="true"
-              ><font style="vertical-align: inherit"
-                ><font style="vertical-align: inherit">|</font></font
-              ></span
-            >
-          </h2>
-          <div class="actions">
-            <a
-              href="https://form.jotform.com/221813832742353"
-              class="btn-get-started"
-              ><font style="vertical-align: inherit"
-                ><font style="vertical-align: inherit">انضم إلينا</font></font
-              ></a
-            >
-            <a
-              href="https://zenodo.org/communities/1231231664/?page=1&amp;size=20"
-              class="btn-services"
-              ><font style="vertical-align: inherit"
-                ><font style="vertical-align: inherit">كل المواد</font></font
-              ></a
-            >
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- End Hero -->
-
     <!-- ======= Header ======= -->
-    <header id="header" class="d-flex align-items-center">
+    <header id="header" class="d-flex align-items-center fixed-top">
       <div class="container d-flex align-items-center justify-content-between">
         <a href="../index.html" class="logo mr-auto"
           ><img src="../assets/img/landing/logo1.png" alt=""
@@ -210,11 +161,35 @@
     </header>
     <!-- End Header -->
 
-    <main id="main" class="">
+    <main id="main" class="scrolled-offset">
       <section id="about">
         <div class="container aos-init aos-animate" data-aos="fade-up">
           <div class="row">
             <div class="col-md-12">
+              <!-- ======= Breadcrumbs ======= -->
+              <section class="breadcrumbs gx-4">
+                <div class="container">
+                  <ol class="justify-content-end">
+                    <li>
+                      <a href="../ar-index.html#services"
+                        ><font style="vertical-align: inherit"
+                          ><font style="vertical-align: inherit"
+                            >مسكن</font
+                          ></font
+                        ></a
+                      >
+                    </li>
+                    <li>
+                      <font style="vertical-align: inherit"
+                        ><font style="vertical-align: inherit"
+                          >الوصول المفتوح</font
+                        ></font
+                      >
+                    </li>
+                  </ol>
+                </div>
+              </section>
+              <!-- End Breadcrumbs -->
               <h3 class="section-title">
                 <font style="vertical-align: inherit"
                   ><font style="vertical-align: inherit"
@@ -229,6 +204,7 @@
             class="container about-container aos-init aos-animate"
             data-aos="fade-up"
             data-aos-delay="200"
+            style="margin: 3em 0 0em 0"
           >
             <div class="row">
               <div class="col-md-6">
@@ -242,6 +218,19 @@
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                     allowfullscreen=""
                   ></iframe>
+                  <figcaption class="fst-italic" style="font-size: 14px">
+                    <sup
+                      ><font style="vertical-align: inherit"
+                        ><font style="vertical-align: inherit"
+                          >[فيديو]
+                        </font></font
+                      ><a href="#ref" title="مرجع الفيديو."
+                        ><font style="vertical-align: inherit"
+                          ><font style="vertical-align: inherit">↩</font></font
+                        ></a
+                      ></sup
+                    >
+                  </figcaption>
                 </div>
               </div>
 
@@ -257,7 +246,7 @@
                   <font style="vertical-align: inherit"
                     ><font style="vertical-align: inherit">
                       يوجد الوصول المفتوح عندما لا تكون هناك حواجز مالية أو
-                      قانونية أو فنية للوصول إلى البيانات - أي أنه يمكن لأي شخص
+                      قانونية أو تقنية للوصول إلى البيانات - أي أنه يمكن لأي شخص
                       قراءة المعلومات وتنزيلها ونسخها وتوزيعها وطباعتها والبحث
                       عنها والبحث فيها أو استخدامها في التعليم أو في أي بطريقة
                       أخرى ضمن الاتفاقات القانونية.
@@ -286,7 +275,7 @@
                     ><font style="vertical-align: inherit">
                       تريد معرفة المزيد حول الوصول المفتوح&gt;
                     </font></font
-                  ><a href="https://en.unesco.org/open-access/what-open-access"
+                  ><a href="https://en.wikipedia.org/wiki/Open_access"
                     ><font style="vertical-align: inherit"
                       ><font style="vertical-align: inherit"
                         >انقر هنا</font
@@ -312,10 +301,23 @@
             <div class="row mb-3">
               <div class="col-md-6 mb-4">
                 <img
-                  style="width: 100%"
+                  style="width: 100%; margin: 0em 0 0 0"
                   src="https://www.jisc.ac.uk/sites/default/files/benefits-of-oa-new.jpg"
                   alt="تظهر الصورة الوصول المفتوح"
                 />
+                <figcaption class="fst-italic" style="font-size: 14px">
+                  <sup
+                    ><font style="vertical-align: inherit"
+                      ><font style="vertical-align: inherit"
+                        >[صورة]
+                      </font></font
+                    ><a href="#ref" title="مرجع الفيديو."
+                      ><font style="vertical-align: inherit"
+                        ><font style="vertical-align: inherit">↩</font></font
+                      ></a
+                    ></sup
+                  >
+                </figcaption>
               </div>
 
               <div class="col-md-6 about-content">
@@ -352,9 +354,9 @@
                   <i class="bi bi-check"></i
                   ><font style="vertical-align: inherit"
                     ><font style="vertical-align: inherit">
-                      يتم إيداعها ، على الفور ، بالكامل وفي شكل إلكتروني مناسب ،
-                      في مستودع وصول مفتوح واحد على الأقل معترف به دوليًا وعلى
-                      نطاق واسع وملتزم بالوصول المفتوح.
+                      يتم إيداعها ، فورًا ، بالكامل وفي شكل إلكتروني مناسب ، في
+                      مستودع وصول مفتوح واحد على الأقل معترف به دوليًا وعلى نطاق
+                      واسع ملتزم بالوصول المفتوح.
                     </font></font
                   ><br /><br />
                   <a href="https://en.unesco.org/open-access/what-open-access"
@@ -375,10 +377,41 @@
             <div class="row mb-3">
               <div class="col-md-6 mb-4">
                 <img
-                  style="width: 100%"
+                  style="width: 100%; margin: 0 0 5em 0"
                   src="https://www.ucl.ac.uk/library/sites/library/files/styles/large_image/public/open-access-benefits.jpg?itok=5Pkqh469"
                   alt="صورة تظهر البيانات المفتوحة"
                 />
+                <figcaption class="fst-italic" style="font-size: 14px">
+                  <sup
+                    ><font style="vertical-align: inherit"
+                      ><font style="vertical-align: inherit"
+                        >[صورة]
+                      </font></font
+                    ><a href="#ref" title="مرجع الفيديو."
+                      ><font style="vertical-align: inherit"
+                        ><font style="vertical-align: inherit">↩</font></font
+                      ></a
+                    ></sup
+                  >
+                </figcaption>
+                <img
+                  style="width: 100%"
+                  src="https://texlibris.lib.utexas.edu/wp-content/uploads/2020/10/open_access_grafik2016.jpg"
+                  alt="تظهر الصورة الوصول المفتوح"
+                />
+                <figcaption class="fst-italic" style="font-size: 14px">
+                  <sup
+                    ><font style="vertical-align: inherit"
+                      ><font style="vertical-align: inherit"
+                        >[صورة]
+                      </font></font
+                    ><a href="#ref" title="مرجع الفيديو."
+                      ><font style="vertical-align: inherit"
+                        ><font style="vertical-align: inherit">↩</font></font
+                      ></a
+                    ></sup
+                  >
+                </figcaption>
               </div>
               <div class="col-md-6 about-content mb-3">
                 <h2 class="about-title">
@@ -398,63 +431,129 @@
                   <br />
 
                   <i class="bi bi-check"></i>
-                  <strong> الرؤية: إمكانية رؤية </strong>
-                  المزيد من الأشخاص وتنزيل أبحاثك. يمكن للقراء الجدد أن يكونوا
-                  باحثين خارج بيئة البحث الراسخة أو باحثين من البلدان النامية.
-                  يمكن أن يساهم الوصول المفتوح في ضمان جودة أفضل ، حيث أن البحث
-                  مرئي لعدد أكبر من الأشخاص الذين يمكنهم تقييمه والاستشهاد به.
-                  في الوقت نفسه ، سيكون من الأصعب انتحال البحث.
-
-                  <br />
+                  <strong
+                    ><font style="vertical-align: inherit"
+                      ><font style="vertical-align: inherit"
+                        >الرؤية: إمكانية رؤية</font
+                      ></font
+                    ></strong
+                  ><font style="vertical-align: inherit"
+                    ><font style="vertical-align: inherit">
+                      المزيد من الأشخاص وتنزيل أبحاثك. </font
+                    ><font style="vertical-align: inherit"
+                      >يمكن للقراء الجدد أن يكونوا باحثين خارج بيئة البحث
+                      الراسخة أو باحثين من البلدان النامية. </font
+                    ><font style="vertical-align: inherit"
+                      >يمكن أن يساهم الوصول المفتوح في ضمان جودة أفضل ، حيث أن
+                      البحث مرئي لعدد أكبر من الأشخاص الذين يمكنهم تقييمه
+                      والاستشهاد به. </font
+                    ><font style="vertical-align: inherit"
+                      >في الوقت نفسه ، سيكون من الأصعب انتحال البحث.
+                    </font></font
+                  ><br />
                   <br />
                   <i class="bi bi-check"></i>
-                  <strong> تلبية متطلبات هيئات التمويل: يلبي </strong>
+                  <strong
+                    ><font style="vertical-align: inherit"
+                      ><font style="vertical-align: inherit"
+                        >تلبية متطلبات هيئات التمويل: يلبي
+                      </font></font
+                    ></strong
+                  >
                   <a
                     href="https://medarbejdere.au.dk/en/open-access/open-access-and-foundations"
                     target="_blank"
-                  >
-                    بحثك متطلبات الوصول المفتوح التي تتطلبها المؤسسات بشكل
-                    متزايد من نتائج البحث </a
-                  >, وغالبًا البيانات المرتبطة. إذا كنت لا تفي بمتطلبات الوصول
-                  المفتوح ، فقد تخاطر بعدم تخصيص كل أموالك.
-
+                    ><font style="vertical-align: inherit"
+                      ><font style="vertical-align: inherit">
+                        بحثك متطلبات الوصول المفتوح التي تتطلبها المؤسسات بشكل
+                        متزايد من نتائج البحث</font
+                      ></font
+                    ></a
+                  ><font style="vertical-align: inherit"
+                    ><font style="vertical-align: inherit">
+                      ، وغالبًا البيانات المرتبطة. </font
+                    ><font style="vertical-align: inherit"
+                      >إذا كنت لا تفي بمتطلبات الوصول المفتوح ، فقد تخاطر بعدم
+                      تخصيص كل أموالك.
+                    </font></font
+                  ><br />
                   <br />
-                  <br />
-                  <i class="bi bi-check"></i><strong>التوفر: </strong>لوصول
-                  المجاني للجميع ، ولا يقتصر على ما إذا كان المستخدم لديه اشتراك
-                  أم لا. اعتمادًا على الظروف ، ستكون منشورات الوصول المفتوح
-                  قابلة للبحث في الباحث العلمي منGoogle و Scopus وقواعد البيانات
-                  المتخصصة وما إلى ذلك. المنشورات التي يتم تحميلها
-                  <a
+                  <i class="bi bi-check"></i
+                  ><strong
+                    ><font style="vertical-align: inherit"
+                      ><font style="vertical-align: inherit">
+                        التوفر:</font
+                      ></font
+                    ></strong
+                  ><font style="vertical-align: inherit"
+                    ><font style="vertical-align: inherit">
+                      الوصول المجاني للجميع ، ولا يقتصر على ما إذا كان المستخدم
+                      لديه اشتراك أم لا. </font
+                    ><font style="vertical-align: inherit"
+                      >اعتمادًا على الظروف ، ستكون منشورات الوصول المفتوح قابلة
+                      للبحث في الباحث العلمي من Google و Scopus وقواعد البيانات
+                      المتخصصة وما إلى ذلك. </font
+                    ><font style="vertical-align: inherit"
+                      >المنشورات التي يتم تحميلها على Pure ، على سبيل المثال ،
+                      ستكون متاحة في
+                    </font></font
+                  ><a
                     href="https://www.forskningsdatabasen.dk/en"
                     tatget="'_blank"
+                    ><font style="vertical-align: inherit"
+                      ><font style="vertical-align: inherit">
+                        قاعدة بيانات البحوث الوطنية الدنماركية.</font
+                      ></font
+                    ></a
                   >
-                    قاعدة بيانات البحوث الوطنية الدنماركية.</a
-                  >
-                  <br />
-                  <br />
-                  <i class="bi bi-check"></i> <strong> الشفافية:</strong>
-                  تم تعزيز نزاهة البحث الخاص بك من خلال التوفر المجاني لبحثك.
-                  خاصة إذا كنت تمنح الوصول إلى بياناتك وبالتالي تجعل بحثك أكثر
-                  شفافية. هذا يجعل بحثك أكثر مصداقية ويسمح لك بإعادة استخدام
-                  بياناتك لمشاريع بحثية جديدة.
-
                   <br />
                   <br />
                   <i class="bi bi-check"></i>
-                  <strong>شركاء التعاون: </strong>
-                  إذا أعطيت باحثين آخرين غير أولئك الذين تعمل معهم عادة الفرصة
-                  للوصول إلى بحثك ، فقد يؤدي ذلك إلى جهات اتصال جديدة ، والتي قد
-                  تتحول إلى شركاء تعاونيين جدد. وبالتالي ، يمهد الطريق لفوائد
-                  عرضية وفرص بحثية جديدة.
-
+                  <strong
+                    ><font style="vertical-align: inherit"
+                      ><font style="vertical-align: inherit"
+                        >الشفافية:</font
+                      ></font
+                    ></strong
+                  ><font style="vertical-align: inherit"
+                    ><font style="vertical-align: inherit">
+                      يتم تعزيز نزاهة البحث الخاص بك من خلال التوفر المجاني
+                      لبحثك. </font
+                    ><font style="vertical-align: inherit"
+                      >خاصة إذا كنت تمنح الوصول إلى بياناتك وبالتالي تجعل بحثك
+                      أكثر شفافية. </font
+                    ><font style="vertical-align: inherit"
+                      >هذا يجعل بحثك أكثر مصداقية ويسمح لك بإعادة استخدام
+                      بياناتك لمشاريع بحثية جديدة.
+                    </font></font
+                  ><br />
                   <br />
+                  <i class="bi bi-check"></i>
+                  <strong
+                    ><font style="vertical-align: inherit"
+                      ><font style="vertical-align: inherit"
+                        >شركاء التعاون:</font
+                      ></font
+                    ></strong
+                  ><font style="vertical-align: inherit"
+                    ><font style="vertical-align: inherit">
+                      إذا أعطيت باحثين آخرين غير أولئك الذين تعمل معهم عادة
+                      الفرصة للوصول إلى بحثك ، فقد يؤدي ذلك إلى جهات اتصال جديدة
+                      ، والتي قد تتحول إلى شركاء تعاونيين جدد. </font
+                    ><font style="vertical-align: inherit"
+                      >وبالتالي ، يمهد الطريق لفوائد عرضية وفرص بحثية جديدة.
+                    </font></font
+                  ><br />
 
-                  <br />
-                  اقرأ المزيد عن فوائد الوصول المفتوح هنا<a
+                  <br /><font style="vertical-align: inherit"
+                    ><font style="vertical-align: inherit">
+                      اقرأ المزيد عن فوائد الوصول المفتوح
+                    </font></font
+                  ><a
                     href="https://medarbejdere.au.dk/en/open-access/advantages-of-open-access"
-                  >
-                    هنا</a
+                    ><font style="vertical-align: inherit"
+                      ><font style="vertical-align: inherit">هنا</font></font
+                    ></a
                   >
                 </p>
               </div>
@@ -463,68 +562,263 @@
             <div class="row mb-3">
               <div class="col-md-6 about-content mb-4">
                 <h2 class="about-title">
-                  فتح الوصول في وسائل التواصل الاجتماعي
+                  <font style="vertical-align: inherit"
+                    ><font style="vertical-align: inherit"
+                      >فتح الوصول في وسائل التواصل الاجتماعي</font
+                    ></font
+                  >
                 </h2>
-                وسائل التواصل الاجتماعي هي قناة جيدة لجعل بحثك مرئيًا. ومع ذلك ،
-                يرى بعض الناشرين أن الشبكات الاجتماعية مثل Research Gate و
-                Academia.edu ضارة أو معطلة لبيئة النشر ، ولديهم قيود على نشر
-                مقالاتهم على هذه المواقع.
-
-                <br /><br />
-                لذلك ، يجب عليك دائمًا التحقق من:
+                <font style="vertical-align: inherit"
+                  ><font style="vertical-align: inherit">
+                    وسائل التواصل الاجتماعي هي قناة جيدة لجعل بحثك مرئيًا. </font
+                  ><font style="vertical-align: inherit"
+                    >ومع ذلك ، يرى بعض الناشرين أن الشبكات الاجتماعية مثل
+                    Research Gate و Academia.edu ضارة أو معطلة لبيئة النشر ،
+                    ولديهم قيود على نشر مقالاتهم على هذه المواقع.
+                  </font></font
+                ><br /><br /><font style="vertical-align: inherit"
+                  ><font style="vertical-align: inherit">
+                    لذلك ، يجب عليك دائمًا التحقق من:
+                  </font></font
+                >
                 <p class="about-text">
-                  <i class="bi bi-check"></i> إذا كان مسموحًا لك بنشر عملك /
-                  أبحاثك <br />
+                  <i class="bi bi-check"></i
+                  ><font style="vertical-align: inherit"
+                    ><font style="vertical-align: inherit"
+                      >إذا كان مسموحًا لك بنشر عملك / أبحاثك</font
+                    ></font
+                  ><br />
                   <br />
-                  <i class="bi bi-check"></i>تحت أي شروط يمكنك التقديم
+                  <i class="bi bi-check"></i
+                  ><font style="vertical-align: inherit"
+                    ><font style="vertical-align: inherit"
+                      >تحت أي شروط يمكنك التقديم</font
+                    ></font
+                  ><br />
                   <br />
+                  <i class="bi bi-check"></i
+                  ><font style="vertical-align: inherit"
+                    ><font style="vertical-align: inherit"
+                      >إذا كانت هناك فترة حظر ،
+                    </font></font
+                  ><br />
                   <br />
-                  <i class="bi bi-check"></i> إذا كانت هناك فترة حظر
-                  <br />
-                  <br />
+                  <br /><font style="vertical-align: inherit"
+                    ><font style="vertical-align: inherit"> انقر </font></font
+                  ><a
+                    href="https://medarbejdere.au.dk/en/open-access/open-access-and-social-media"
+                    ><font style="vertical-align: inherit"
+                      ><font style="vertical-align: inherit">هنا</font></font
+                    ></a
+                  ><font style="vertical-align: inherit"
+                    ><font style="vertical-align: inherit">
+                      لقراءة المزيد عن الوصول المفتوح في وسائل التواصل الاجتماعي
+                    </font></font
+                  >
                 </p>
 
                 <img
                   style="width: 100%"
                   src="https://weblog.wur.eu/openscience/wp-content/uploads/sites/20/2016/11/PhDcomicsOpenAccess.png"
-                  alt="الصورة تظهر البيانات المفتوحة"
+                  alt="تظهر الصورة الوصول المفتوح"
                 />
+                <figcaption class="fst-italic" style="font-size: 14px">
+                  <sup
+                    ><font style="vertical-align: inherit"
+                      ><font style="vertical-align: inherit"
+                        >[صورة]
+                      </font></font
+                    ><a href="#ref" title="مرجع الفيديو."
+                      ><font style="vertical-align: inherit"
+                        ><font style="vertical-align: inherit">↩</font></font
+                      ></a
+                    ></sup
+                  >
+                </figcaption>
               </div>
 
               <div class="col-md-6 about-content mt-3">
-                <h2 class="about-title">مشاكل الوصول المفتوح</h2>
+                <h2 class="about-title">
+                  <font style="vertical-align: inherit"
+                    ><font style="vertical-align: inherit">موارد</font></font
+                  >
+                </h2>
                 <p class="about-text">
-                  فيما يلي بعض عيوب الوصول المفتوح <br />
-                  <br />
-
-                  <i class="bi bi-check"></i>
-                  <strong>القانون العام لحماية البيانات وحقوق النشر </strong> -
-                  ليس من الممكن دائمًا إتاحة الوصول إلى جميع نتائج البحث. قد
-                  تكون هناك بيانات يجب حمايتها ، أو بيانات شخصية على سبيل المثال
-                  ، أو بيانات يجب عدم نشرها للعامة لأسباب أخرى. لذلك ، لا يمكن
-                  أن تكون جميع نتائج البحث مفتوحة. اتبع مبدأ جعل بياناتك مفتوحة
-                  قدر الإمكان ، ومقيدة حسب الضرورة. <br /><br />
-                  <i class="bi bi-check"></i>
-                  <strong>المجلات المفترسة </strong> -
-                  <a
-                    href="https://medarbejdere.au.dk/en/open-access/open-access-publication#c2580689"
+                  <font style="vertical-align: inherit"
+                    ><font style="vertical-align: inherit">
+                      رابط لمصادر مفيدة على الوصول المفتوح
+                    </font></font
                   >
-                    احذر من الناشرين الموجودين فقط لتحقيق مكاسب مالية..</a
-                  >
-                  ه والذي يوفر أفضل منصة لأبحاثك. <br />
-                  <br />
-
-                  <i class="bi bi-check"></i>
-                  <strong>انخفاض ضمان الجودة؟ </strong> -مع التعامل الصحيح ، لا
-                  يحتاج الوصول المفتوح إلى تدهور الجودة. سيظل الناشرون بحاجة إلى
-                  عملية مراجعة الأقران ، والتي تضمن جودة ونزاهة البحث من خلال
-                  تقييم نقدي. يمكن أن يساهم الوصول المفتوح أيضًا في ضمان جودة
-                  أفضل حيث يصبح المزيد من الأبحاث مرئيًا لعدد أكبر من الأشخاص ،
-                  الذين يمكنهم بعد ذلك تقييمها والاستشهاد بها. في الوقت نفسه ،
-                  سيصبح من الصعب انتحال البحث.
-
-                  <br /><br />
                 </p>
+
+                <ul class="list-unstyled">
+                  <li>
+                    <a
+                      href="https://www.jisc.ac.uk/guides/an-introduction-to-open-access"
+                    >
+                      <i class="bi bi-check"></i
+                      ><font style="vertical-align: inherit"
+                        ><font style="vertical-align: inherit">
+                          https://www.jisc.ac.uk/guides/an-introduction-to-open-access</font
+                        ></font
+                      ></a
+                    >
+                  </li>
+                  <br />
+                  <li>
+                    <a href="https://www.openaccess.nl/en/what-is-open-access">
+                      <i class="bi bi-check"></i
+                      ><font style="vertical-align: inherit"
+                        ><font style="vertical-align: inherit"
+                          >https://www.openaccess.nl/en/what-is-open-access
+                        </font></font
+                      ></a
+                    >
+                  </li>
+                  <br />
+                  <li>
+                    <a href="https://en.wikipedia.org/wiki/Open_access">
+                      <i class="bi bi-check"></i
+                      ><font style="vertical-align: inherit"
+                        ><font style="vertical-align: inherit">
+                          https://en.wikipedia.org/wiki/Open_access</font
+                        ></font
+                      ></a
+                    >
+                  </li>
+                  <br />
+                  <li>
+                    <a href="https://guides.library.cornell.edu/openaccess">
+                      <i class="bi bi-check"></i
+                      ><font style="vertical-align: inherit"
+                        ><font style="vertical-align: inherit">
+                          https://guides.library.cornell.edu/openaccess</font
+                        ></font
+                      ></a
+                    >
+                  </li>
+                  <br />
+                  <li>
+                    <a
+                      href="https://medarbejdere.au.dk/en/open-access/advantages-of-open-access"
+                    >
+                      <i class="bi bi-check"></i
+                      ><font style="vertical-align: inherit"
+                        ><font style="vertical-align: inherit">
+                          https://medarbejdere.au.dk/en/open-access/advantages-of-open-access</font
+                        ></font
+                      ></a
+                    >
+                  </li>
+                  <br />
+                  <li>
+                    <a
+                      href="https://medarbejdere.au.dk/en/open-access/open-access-and-social-media"
+                    >
+                      <i class="bi bi-check"></i
+                      ><font style="vertical-align: inherit"
+                        ><font style="vertical-align: inherit">
+                          https://medarbejdere.au.dk/en/open-access/open-access-and-social-media</font
+                        ></font
+                      ></a
+                    >
+                  </li>
+                  <br />
+                </ul>
+
+                <h5 class="mb-2" style="font-weight: bold" id="ref">
+                  <font style="vertical-align: inherit"
+                    ><font style="vertical-align: inherit">مراجع</font></font
+                  >
+                </h5>
+                <p id="ref" class="fst-italic" style="font-size: 14px">
+                  <font style="vertical-align: inherit"
+                    ><font style="vertical-align: inherit">
+                      تم إنتاج الفيديو الموضح أعلاه بواسطة
+                    </font></font
+                  ><a
+                    href="https://www.youtube.com/watch?v=L5rVH1KGBCY"
+                    target="_blank"
+                    ><font style="vertical-align: inherit"
+                      ><font style="vertical-align: inherit"
+                        >Piled Higher and Deeper (PHD Comics)</font
+                      ></font
+                    ></a
+                  ><font style="vertical-align: inherit"
+                    ><font style="vertical-align: inherit"> . </font
+                    ><font style="vertical-align: inherit"
+                      >يقدم هذا الفيديو من PHDComics ملخصًا للعديد من المشكلات
+                      والعوامل الكامنة وراء الوصول المفتوح. </font
+                    ><font style="vertical-align: inherit">. </font
+                    ><font style="vertical-align: inherit"
+                      >إذا كنت تعيد استخدام الفيديو ، فيرجى الاستشهاد بـ: Jorge
+                      Cham و Noel Dilworth و Nick Shockey و Jonathan Eisen. </font
+                    ><font style="vertical-align: inherit"
+                      >تم إنتاجه بالشراكة مع ائتلاف الحق في البحث ، وائتلاف
+                      النشر العلمي والموارد والرابطة الوطنية للطلاب الخريجين
+                      المحترفين. </font
+                    ><font style="vertical-align: inherit"
+                      >قم بزيارة
+                    </font></font
+                  ><a
+                    href="https://www.youtube.com/c/phdcomics1"
+                    target="_blank"
+                    ><font style="vertical-align: inherit"
+                      ><font style="vertical-align: inherit"
+                        >قناة يوتيوب Piled Higher and Deeper (PHD Comics)</font
+                      ></font
+                    ></a
+                  >
+                </p>
+                <p class="fst-italic" style="font-size: 14px">
+                  <font style="vertical-align: inherit"
+                    ><font style="vertical-align: inherit">
+                      مصادر الصور
+                    </font></font
+                  ><br />
+                  <a
+                    id="image-source"
+                    href="https://www.jisc.ac.uk/guides/an-introduction-to-open-access"
+                    ><font style="vertical-align: inherit"
+                      ><font style="vertical-align: inherit"
+                        >https://www.jisc.ac.uk/guides/an-introduction-to-open-access
+                      </font></font
+                    ></a
+                  >
+
+                  <a
+                    id="image-source"
+                    href="https://www.ucl.ac.uk/library/open-science-research-support/open-access/understanding-open-access"
+                    ><font style="vertical-align: inherit"
+                      ><font style="vertical-align: inherit"
+                        >https://www.ucl.ac.uk/library/open-science-research-support
+                      </font></font
+                    ></a
+                  >
+
+                  <a
+                    id="image-source"
+                    href="https://texlibris.lib.utexas.edu/2020/10/open-access-week-2020-the-difference-it-makes/"
+                    ><font style="vertical-align: inherit"
+                      ><font style="vertical-align: inherit"
+                        >https: //
+                        texlibris.lib.utexas.edu/2020/10/open-access-week-2020-the-difference-it-makes/
+                      </font></font
+                    ></a
+                  >
+
+                  <a
+                    id="image-source"
+                    href="https://weblog.wur.eu/openscience/open-access-reuse-rights/"
+                    ><font style="vertical-align: inherit"
+                      ><font style="vertical-align: inherit"
+                        >https://weblog.wur.eu/openscience/open-access-reuse-rights/</font
+                      ></font
+                    ></a
+                  >
+                </p>
+
+                <p></p>
               </div>
             </div>
           </div>
@@ -541,8 +835,11 @@
         <div class="row">
           <div class="col-md-12">
             <div class="copyright">
-              Get in touch:
-              <a href=""><i class="bi bi-twitter"></i></a>
+              <font style="vertical-align: inherit"
+                ><font style="vertical-align: inherit">
+                  ابقى على تواصل:
+                </font></font
+              ><a href=""><i class="bi bi-twitter"></i></a>
               <a href=""><i class="bi bi-linkedin"></i></a>
               <a href=""><i class="bi bi-github"></i></a> <br /><font
                 style="vertical-align: inherit"
