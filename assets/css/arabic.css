@@ -1,7 +1,7 @@
 body {
   background: #fff;
   color: #666666;
-  family: 'IBM Plex Sans Arabic', sans-serif;
+  font-family: 'IBM Plex Sans Arabic', sans-serif;
 }
 
 #services .service-icon-ar {
@@ -51,7 +51,7 @@ body {
 }
 #about .about-img-ar img {
   max-width: 100%;
-  padding-top: 3cm,
+  padding-top: 3cm;
 
 }
 @media (max-width: 768px) {
@@ -66,3 +66,4 @@ body {
     padding-top: 3cm;
     /* padding-bottom: 30px;  */
   }
+}
