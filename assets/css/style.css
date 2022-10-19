@@ -631,28 +631,28 @@ section {
 
 /* Materials Section
 --------------------------------*/
-#materilas {
+#materials {
   background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/css/bg1.jpeg) fixed center center;
   background-size: cover;
   padding: 80px 0;
 }
 
-#materilas .subscribe-title {
+#materials .subscribe-title {
   color: #fff;
   font-size: 28px;
   font-weight: 700;
 }
 
-#materilas .subscribe-text {
+#materials .subscribe-text {
   color: #fff;
 }
 
-#materilas .subscribe-btn-container {
+#materials .subscribe-btn-container {
   text-align: center;
   padding-top: 20px;
 }
 
-#materilas .subscribe-btn {
+#materials .subscribe-btn {
   font-family: "Raleway", 'IBM Plex Sans Arabic', sans-serif;
   text-transform: uppercase;
   font-weight: 500;
@@ -667,9 +667,18 @@ section {
   color: #fff;
 }
 
-#materilas .subscribe-btn:hover {
+#materials .subscribe-btn:hover {
   background: #03C4EB;
   border: 2px solid #03C4EB;
+}
+
+/* Funders section */
+.funders-img {
+  max-width: 250px;
+  width: 90%;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 2rem;
 }
 
 /* Portfolio Section
