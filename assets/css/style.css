@@ -1015,6 +1015,11 @@ section {
 	font-size: 15px;
 }
 
+#event-details h4 {
+	font-weight: 700;
+	font-size: 18px;
+}
+
 /* Contact Section
 --------------------------------*/
 #contact {
