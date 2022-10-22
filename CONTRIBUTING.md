@@ -15,7 +15,7 @@ The website was built with
 - HTML
 - CSS
 - JAVASCRIPT
--PHP
+- PHP
 
 Contribution can either be technical or non-technical, so dont be worried if you have no coding knowledge.
 
