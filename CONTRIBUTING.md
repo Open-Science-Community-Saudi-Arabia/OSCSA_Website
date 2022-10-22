@@ -47,7 +47,7 @@ sure that issue has not been assigned or suggested to/by another contributor
 
 link: how to make a pull request :https://www.freecodecamp.org/news/how-to-make-your-first-pull-request-on-github-3/
 
--While describing your pull request make sure to add the issue number you are wokring on
+- While describing your pull request, make sure to add the issue number you are working on
 e.g fixes #24
 
 - Describe the problem you are solving
