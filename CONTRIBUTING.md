@@ -21,7 +21,7 @@ Contribution can either be technical or non-technical, so dont be worried if you
 
                                             STEPS TO CONTRIBUTE
 
--Start by forking and cloning the OSCSA website repository
+- Start by forking and cloning the OSCSA website repository
 link : https://github.com/Open-Science-Community-Saudi-Arabia/OSCSA_Website
 
 -Now open the cloned repo in your IDE(e.g VsCode)
