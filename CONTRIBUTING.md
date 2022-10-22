@@ -13,7 +13,7 @@ link: https://github.com/Open-Science-Community-Saudi-Arabia/Open-Science-Commun
 The OSCSA website is the official website for the OSCSA community
 The website was built with
 - HTML
--CSS
+- CSS
 -JAVASCRIPT
 -PHP
 
