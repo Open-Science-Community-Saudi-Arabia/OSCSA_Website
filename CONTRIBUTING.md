@@ -55,6 +55,6 @@ e.g fixes #24
 - Then create pull request
 
 -wait for it to be reviewed and merged
--Congrats on your first contribution.
+- Congrats on your first contribution 🎉 .
 
                                                  HURRAY!!!!
