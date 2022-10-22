@@ -24,7 +24,7 @@ Contribution can either be technical or non-technical, so dont be worried if you
 - Start by forking and cloning the OSCSA website repository
 link : https://github.com/Open-Science-Community-Saudi-Arabia/OSCSA_Website
 
--Now open the cloned repo in your IDE(e.g VsCode)
+- Now open the cloned repo in your IDE (e.g VsCode)
 
 - Create a new branch
 link on how to create a new branch: https://www.freecodecamp.org/news/how-to-create-a-local-git-branch/
