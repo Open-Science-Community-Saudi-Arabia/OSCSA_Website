@@ -43,7 +43,7 @@ i.e
 - Now that you know what you what you want to work on, create an issue on GitHub tagging one of the mentors, and also make
 sure that issue has not been assigned or suggested to/by another contributor
 
--Now that you've contributed ,push your code to your branch then make a pull request
+- Now that you've contributed, push your code to your branch, then make a pull request
 
 link: how to make a pull request :https://www.freecodecamp.org/news/how-to-make-your-first-pull-request-on-github-3/
 
