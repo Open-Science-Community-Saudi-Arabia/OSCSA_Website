@@ -12,15 +12,53 @@
       "avatar_url": "https://avatars.githubusercontent.com/u/54219127?v=4",
       "profile": "https://goodnewssandy.netlify.app/",
       "contributions": [
-        "bug" ]
-    },{
+        "bug"
+      ]
+    },
+    {
       "login": "okerekechinweotito",
       "name": "Okereke Chinweotito",
       "avatar_url": "https://avatars.githubusercontent.com/u/65835404?v=4",
       "profile": "http://okereke.dev",
       "contributions": [
         "infra"
-
+      ]
+    },
+    {
+      "login": "Jolah1",
+      "name": "Okunlade Jolade",
+      "avatar_url": "https://avatars.githubusercontent.com/u/99138852?v=4",
+      "profile": "https://www.linkedin.com/in/jolade-okunlade-1840a6138",
+      "contributions": [
+        "bug"
+      ]
+    },
+    {
+      "login": "mildrette",
+      "name": "Mildred",
+      "avatar_url": "https://avatars.githubusercontent.com/u/99267408?v=4",
+      "profile": "https://github.com/mildrette",
+      "contributions": [
+        "bug"
+      ]
+    },
+    {
+      "login": "AsmaKacem1",
+      "name": "Asma Kacem",
+      "avatar_url": "https://avatars.githubusercontent.com/u/73066984?v=4",
+      "profile": "https://asmakacem.me/",
+      "contributions": [
+        "ideas",
+        "infra"
+      ]
+    },
+    {
+      "login": "RealRichi3",
+      "name": "Richie",
+      "avatar_url": "https://avatars.githubusercontent.com/u/76791916?v=4",
+      "profile": "https://realrichi3.github.io",
+      "contributions": [
+        "infra"
       ]
     }
   ],

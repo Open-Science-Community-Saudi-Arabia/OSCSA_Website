@@ -1,13 +1,13 @@
 name: Add pull requests from Outreachy to projects
 
 on:
-  pull_request:
+  pull_request_target:
     types:
       - labeled
-
+       
 jobs:
   add-to-project:
-    name: Add issue to project
+    name: Add PR to project
     runs-on: ubuntu-latest
     steps:
       - uses: actions/add-to-project@v0.3.0
@@ -16,3 +16,4 @@ jobs:
           github-token: ${{ secrets.ADD_TO_PROJECT_PAT }}
           labeled: outreachy
           label-operator: AND
+        
