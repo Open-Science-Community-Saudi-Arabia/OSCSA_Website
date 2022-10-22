@@ -51,7 +51,7 @@ link: how to make a pull request :https://www.freecodecamp.org/news/how-to-make-
 e.g fixes #24
 
 - Describe the problem you are solving
-- list the areas you've corrected
+- List the areas you've corrected
 - Then create pull request
 
 - Wait for it to be reviewed and merged
