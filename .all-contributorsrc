@@ -41,6 +41,34 @@
       "contributions": [
         "doc"
       ]
+    },
+    {
+      "login": "mildrette",
+      "name": "Mildred",
+      "avatar_url": "https://avatars.githubusercontent.com/u/99267408?v=4",
+      "profile": "https://github.com/mildrette",
+      "contributions": [
+        "bug"
+      ]
+    },
+    {
+      "login": "AsmaKacem1",
+      "name": "Asma Kacem",
+      "avatar_url": "https://avatars.githubusercontent.com/u/73066984?v=4",
+      "profile": "https://asmakacem.me/",
+      "contributions": [
+        "ideas",
+        "infra"
+      ]
+    },
+    {
+      "login": "RealRichi3",
+      "name": "Richie",
+      "avatar_url": "https://avatars.githubusercontent.com/u/76791916?v=4",
+      "profile": "https://realrichi3.github.io",
+      "contributions": [
+        "infra"
+      ]
     }
   ],
   "contributorsPerLine": 7,
