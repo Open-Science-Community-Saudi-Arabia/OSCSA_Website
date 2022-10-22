@@ -14,7 +14,7 @@ The OSCSA website is the official website for the OSCSA community
 The website was built with
 - HTML
 - CSS
--JAVASCRIPT
+- JAVASCRIPT
 -PHP
 
 Contribution can either be technical or non-technical, so dont be worried if you have no coding knowledge.
