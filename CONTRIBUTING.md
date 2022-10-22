@@ -40,7 +40,7 @@ i.e
 - Fixing a bug
 - Writng content e.t.c
 
--Now that you know what you what you want to work on, create an issue on github taggin one of the mentors, and also make
+- Now that you know what you what you want to work on, create an issue on GitHub tagging one of the mentors, and also make
 sure that issue has not been assigned or suggested to/by another contributor
 
 -Now that you've contributed ,push your code to your branch then make a pull request
