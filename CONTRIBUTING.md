@@ -52,7 +52,7 @@ e.g fixes #24
 
 - Describe the problem you are solving
 - List the areas you've corrected
-- Then create pull request
+- Then create a pull request (PR)
 
 - Wait for it to be reviewed and merged
 - Congrats on your first contribution 🎉 .
