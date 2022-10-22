@@ -31,7 +31,7 @@ link on how to create a new branch: https://www.freecodecamp.org/news/how-to-cre
 
 - Open the index.html file then use the shortcut [shift+alt+b] to see the website in your browser
 
--Go through the website and think of ways tha you can contribute to the website
+- Go through the website and think of ways that you can contribute to the website
 i.e
 
 - working on an issues by mentors
