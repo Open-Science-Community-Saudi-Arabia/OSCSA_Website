@@ -36,7 +36,7 @@ i.e
 
 - Working on an issues by mentors
 - Correcting a typographical error
-- creating new features
+- Creating new features
 - fixing a bug
 - writng content e.t.c
 
