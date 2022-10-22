@@ -50,7 +50,7 @@ link: how to make a pull request :https://www.freecodecamp.org/news/how-to-make-
 -While describing your pull request make sure to add the issue number you are wokring on
 e.g fixes #24
 
-- describe the problem you are solving
+- Describe the problem you are solving
 - list the areas you've corrected
 - Then create pull request
 
