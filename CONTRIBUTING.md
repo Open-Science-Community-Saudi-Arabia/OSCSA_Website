@@ -35,7 +35,7 @@ link on how to create a new branch: https://www.freecodecamp.org/news/how-to-cre
 i.e
 
 - Working on an issues by mentors
-- correcting a typographical error
+- Correcting a typographical error
 - creating new features
 - fixing a bug
 - writng content e.t.c
