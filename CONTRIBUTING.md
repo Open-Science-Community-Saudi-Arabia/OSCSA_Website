@@ -34,7 +34,7 @@ link on how to create a new branch: https://www.freecodecamp.org/news/how-to-cre
 - Go through the website and think of ways that you can contribute to the website
 i.e
 
-- working on an issues by mentors
+- Working on an issues by mentors
 - correcting a typographical error
 - creating new features
 - fixing a bug
