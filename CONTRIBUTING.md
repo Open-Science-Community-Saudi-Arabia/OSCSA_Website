@@ -54,7 +54,7 @@ e.g fixes #24
 - list the areas you've corrected
 - Then create pull request
 
--wait for it to be reviewed and merged
+- Wait for it to be reviewed and merged
 - Congrats on your first contribution 🎉 .
 
                                                  HURRAY!!!!
