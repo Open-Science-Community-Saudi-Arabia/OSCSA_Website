@@ -37,7 +37,7 @@ i.e
 - Working on an issues by mentors
 - Correcting a typographical error
 - Creating new features
-- fixing a bug
+- Fixing a bug
 - writng content e.t.c
 
 -Now that you know what you what you want to work on, create an issue on github taggin one of the mentors, and also make
