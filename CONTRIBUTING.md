@@ -38,7 +38,7 @@ i.e
 - Correcting a typographical error
 - Creating new features
 - Fixing a bug
-- writng content e.t.c
+- Writng content e.t.c
 
 -Now that you know what you what you want to work on, create an issue on github taggin one of the mentors, and also make
 sure that issue has not been assigned or suggested to/by another contributor
