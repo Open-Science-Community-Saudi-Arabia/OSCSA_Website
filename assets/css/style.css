@@ -96,7 +96,7 @@ h6 {
   display: table;
   width: 100%;
   height: 100vh;
-  background: url(../img/landing/bg-01-01.png) top center;
+  background: url(../img/landing/bg-01-01.webp) top center;
   background-size: cover;
 }
 
@@ -163,7 +163,7 @@ h6 {
   }
 }
 
-#hero .rotating>.animated {
+#hero .rotating > .animated {
   display: inline-block;
 }
 
@@ -295,7 +295,7 @@ h6 {
 .navbar a:hover,
 .navbar .active,
 .navbar .active:focus,
-.navbar li:hover>a {
+.navbar li:hover > a {
   color: #03c4eb;
 }
 
@@ -330,11 +330,11 @@ h6 {
 
 .navbar .dropdown ul a:hover,
 .navbar .dropdown ul .active:hover,
-.navbar .dropdown ul li:hover>a {
+.navbar .dropdown ul li:hover > a {
   color: #03c4eb;
 }
 
-.navbar .dropdown:hover>ul {
+.navbar .dropdown:hover > ul {
   opacity: 1;
   top: 100%;
   visibility: visible;
@@ -346,7 +346,7 @@ h6 {
   visibility: hidden;
 }
 
-.navbar .dropdown .dropdown:hover>ul {
+.navbar .dropdown .dropdown:hover > ul {
   opacity: 1;
   top: 0;
   left: 100%;
@@ -358,7 +358,7 @@ h6 {
     left: -90%;
   }
 
-  .navbar .dropdown .dropdown:hover>ul {
+  .navbar .dropdown .dropdown:hover > ul {
     left: -100%;
   }
 }
@@ -425,7 +425,7 @@ h6 {
 
 .navbar-mobile a:hover,
 .navbar-mobile .active,
-.navbar-mobile li:hover>a {
+.navbar-mobile li:hover > a {
   color: #03c4eb;
 }
 
@@ -460,11 +460,11 @@ h6 {
 
 .navbar-mobile .dropdown ul a:hover,
 .navbar-mobile .dropdown ul .active:hover,
-.navbar-mobile .dropdown ul li:hover>a {
+.navbar-mobile .dropdown ul li:hover > a {
   color: #03c4eb;
 }
 
-.navbar-mobile .dropdown>.dropdown-active {
+.navbar-mobile .dropdown > .dropdown-active {
   display: block;
 }
 
@@ -554,9 +554,11 @@ section {
 /* Services Section
 --------------------------------*/
 #services {
-  background: linear-gradient(rgba(255, 255, 255, 0.9),
-      rgba(255, 255, 255, 0.9)),
-    url("../img/services-bg.jpeg") fixed center center;
+  background: linear-gradient(
+      rgba(255, 255, 255, 0.9),
+      rgba(255, 255, 255, 0.9)
+    ),
+    url("../img/services-bg.webp") fixed center center;
   background-size: cover;
   padding: 80px 0 60px 0;
 }
@@ -612,7 +614,7 @@ section {
 --------------------------------*/
 #subscribe {
   background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-    url(../img/css/bg1.jpeg) fixed center center;
+    url(../img/css/bg1.webp) fixed center center;
   background-size: cover;
   padding: 80px 0;
 }
@@ -656,7 +658,7 @@ section {
 --------------------------------*/
 #materilas {
   background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-    url(../img/css/bg1.jpeg) fixed center center;
+    url(../img/css/bg1.webp) fixed center center;
   background-size: cover;
   padding: 80px 0;
 }
@@ -799,7 +801,10 @@ section {
   position: relative;
 }
 
-.portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet {
+.portfolio-details
+  .portfolio-details-slider
+  .swiper-pagination
+  .swiper-pagination-bullet {
   width: 12px;
   height: 12px;
   background-color: #fff;
@@ -807,7 +812,10 @@ section {
   border: 1px solid #03c4eb;
 }
 
-.portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet-active {
+.portfolio-details
+  .portfolio-details-slider
+  .swiper-pagination
+  .swiper-pagination-bullet-active {
   background-color: #03c4eb;
 }
 
@@ -830,7 +838,7 @@ section {
   font-size: 15px;
 }
 
-.portfolio-details .portfolio-info ul li+li {
+.portfolio-details .portfolio-info ul li + li {
   margin-top: 10px;
 }
 
@@ -989,7 +997,7 @@ section {
   font-weight: 600;
 }
 
-#contact .php-email-form .error-message br+br {
+#contact .php-email-form .error-message br + br {
   margin-top: 25px;
 }
 
@@ -1086,11 +1094,11 @@ section {
   font-size: 15px;
 }
 
-.breadcrumbs ol li+li {
+.breadcrumbs ol li + li {
   padding-left: 10px;
 }
 
-.breadcrumbs ol li+li::before {
+.breadcrumbs ol li + li::before {
   display: inline-block;
   padding-right: 10px;
   color: gray;
@@ -1118,7 +1126,6 @@ section {
     text-align: left;
   }
 }
-
 
 /* --------------------------------
  open source subpage */
