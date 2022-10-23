@@ -34,6 +34,15 @@
       ]
     },
     {
+      "login": "jesutobi",
+      "name": "jesutobi",
+      "avatar_url": "https://avatars.githubusercontent.com/u/43034407?v=4",
+      "profile": "https://github.com/jesutobi",
+      "contributions": [
+        "doc"
+      ]
+    },
+    {
       "login": "mildrette",
       "name": "Mildred",
       "avatar_url": "https://avatars.githubusercontent.com/u/99267408?v=4",
@@ -49,6 +58,15 @@
       "profile": "https://asmakacem.me/",
       "contributions": [
         "ideas",
+        "infra"
+      ]
+    },
+    {
+      "login": "RealRichi3",
+      "name": "Richie",
+      "avatar_url": "https://avatars.githubusercontent.com/u/76791916?v=4",
+      "profile": "https://realrichi3.github.io",
+      "contributions": [
         "infra"
       ]
     }
