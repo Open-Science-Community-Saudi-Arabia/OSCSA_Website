@@ -163,7 +163,7 @@ h6 {
   }
 }
 
-#hero .rotating > .animated {
+#hero .rotating>.animated {
   display: inline-block;
 }
 
@@ -295,7 +295,8 @@ h6 {
 .navbar a:hover,
 .navbar .active,
 .navbar .active:focus,
-.navbar li:hover > a {
+
+.navbar li:hover>a {
   color: #03c4eb;
 }
 
@@ -330,11 +331,11 @@ h6 {
 
 .navbar .dropdown ul a:hover,
 .navbar .dropdown ul .active:hover,
-.navbar .dropdown ul li:hover > a {
+.navbar .dropdown ul li:hover>a {
   color: #03c4eb;
 }
 
-.navbar .dropdown:hover > ul {
+.navbar .dropdown:hover>ul {
   opacity: 1;
   top: 100%;
   visibility: visible;
@@ -346,19 +347,45 @@ h6 {
   visibility: hidden;
 }
 
-.navbar .dropdown .dropdown:hover > ul {
+.navbar .dropdown .dropdown:hover>ul {
   opacity: 1;
   top: 0;
   left: 100%;
   visibility: visible;
 }
 
+/* About DropDown */
+.dropdown {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+}
+
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #00354E;
+  color: #fff !important;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  padding: 5px 5px 20px 2px;
+  z-index: 1;
+  text-align: center;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+
 @media (max-width: 1366px) {
+
   .navbar .dropdown .dropdown ul {
     left: -90%;
   }
 
-  .navbar .dropdown .dropdown:hover > ul {
+  .navbar .dropdown .dropdown:hover>ul {
     left: -100%;
   }
 }
@@ -376,6 +403,12 @@ h6 {
 }
 
 @media (max-width: 991px) {
+
+  .dropdown-content a {
+
+    color: #fff !important;
+  }
+
   .mobile-nav-toggle {
     display: block;
   }
@@ -425,7 +458,7 @@ h6 {
 
 .navbar-mobile a:hover,
 .navbar-mobile .active,
-.navbar-mobile li:hover > a {
+.navbar-mobile li:hover>a {
   color: #03c4eb;
 }
 
@@ -460,11 +493,11 @@ h6 {
 
 .navbar-mobile .dropdown ul a:hover,
 .navbar-mobile .dropdown ul .active:hover,
-.navbar-mobile .dropdown ul li:hover > a {
+.navbar-mobile .dropdown ul li:hover>a {
   color: #03c4eb;
 }
 
-.navbar-mobile .dropdown > .dropdown-active {
+.navbar-mobile .dropdown>.dropdown-active {
   display: block;
 }
 
@@ -486,7 +519,7 @@ section {
 }
 
 .section-description {
-  text-align: center;
+  text-align: right;
   margin-bottom: 40px;
 }
 
@@ -551,13 +584,13 @@ section {
   color: #166497;
 }
 
+
+
 /* Services Section
 --------------------------------*/
 #services {
-  background: linear-gradient(
-      rgba(255, 255, 255, 0.9),
-      rgba(255, 255, 255, 0.9)
-    ),
+  background: linear-gradient(rgba(255, 255, 255, 0.9),
+      rgba(255, 255, 255, 0.9)),
     url('../img/services-bg.webp') fixed center center;
   background-size: cover;
   padding: 80px 0 60px 0;
@@ -801,10 +834,7 @@ section {
   position: relative;
 }
 
-.portfolio-details
-  .portfolio-details-slider
-  .swiper-pagination
-  .swiper-pagination-bullet {
+.portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet {
   width: 12px;
   height: 12px;
   background-color: #fff;
@@ -812,10 +842,7 @@ section {
   border: 1px solid #03c4eb;
 }
 
-.portfolio-details
-  .portfolio-details-slider
-  .swiper-pagination
-  .swiper-pagination-bullet-active {
+.portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet-active {
   background-color: #03c4eb;
 }
 
@@ -838,7 +865,7 @@ section {
   font-size: 15px;
 }
 
-.portfolio-details .portfolio-info ul li + li {
+.portfolio-details .portfolio-info ul li+li {
   margin-top: 10px;
 }
 
@@ -997,7 +1024,7 @@ section {
   font-weight: 600;
 }
 
-#contact .php-email-form .error-message br + br {
+#contact .php-email-form .error-message br+br {
   margin-top: 25px;
 }
 
@@ -1038,7 +1065,7 @@ section {
 
 #contact .php-email-form input::focus,
 #contact .php-email-form textarea::focus {
-  background-color: #03c4eb;
+  background-color: #03c4eb
 }
 
 #contact .php-email-form button[type='submit'] {
@@ -1094,11 +1121,11 @@ section {
   font-size: 15px;
 }
 
-.breadcrumbs ol li + li {
+.breadcrumbs ol li+li {
   padding-left: 10px;
 }
 
-.breadcrumbs ol li + li::before {
+.breadcrumbs ol li+li::before {
   display: inline-block;
   padding-right: 10px;
   color: gray;
@@ -1154,4 +1181,13 @@ section {
 
 #contact img {
   padding: 20px;
+}
+
+/*--------------------------------------------------------------
+# Code Of Conduct 
+--------------------------------------------------------------*/
+
+#coc {
+  background: #fff;
+  padding: 80px 0;
 }
