@@ -1135,12 +1135,16 @@ section {
   width: 100%;
 }
 
+#service-page p {
+  text-align: justify;
+}
+
 
 #service-page .service-title {
   margin-left: 80px;
   font-weight: 700;
   margin-bottom: 15px;
-  text-transform: uppercase;
+  text-align: center;
 }
 
 #service-page .service-title a {
@@ -1151,6 +1155,21 @@ section {
   font-size: 24px;
   font-weight: 600;
   margin-top: 3rem!important;
+}
+
+#service-page .service-video-text {
+  font-weight: normal;
+  margin-bottom: 1rem!important;
+}
+
+#service-page .service-video-contributors {
+  font-size: medium;
+  margin-bottom: 1rem!important;
+}
+
+#service-page .service-image-reference {
+  font-size: small;
+  font-weight: bold;
 }
 
 #additional-resources .additional-resource {
