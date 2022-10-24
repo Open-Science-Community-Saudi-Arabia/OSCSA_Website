@@ -96,7 +96,7 @@ h6 {
   display: table;
   width: 100%;
   height: 100vh;
-  background: url(../img/landing/bg-01-01.png) top center;
+  background: url(../img/landing/bg-01-01.webp) top center;
   background-size: cover;
 }
 
@@ -558,7 +558,7 @@ section {
       rgba(255, 255, 255, 0.9),
       rgba(255, 255, 255, 0.9)
     ),
-    url("../img/services-bg.jpeg") fixed center center;
+    url("../img/services-bg.webp") fixed center center;
   background-size: cover;
   padding: 80px 0 60px 0;
 }
@@ -614,7 +614,7 @@ section {
 --------------------------------*/
 #subscribe {
   background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-    url(../img/css/bg1.jpeg) fixed center center;
+    url(../img/css/bg1.webp) fixed center center;
   background-size: cover;
   padding: 80px 0;
 }
@@ -658,7 +658,7 @@ section {
 --------------------------------*/
 #materilas {
   background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-    url(../img/css/bg1.jpeg) fixed center center;
+    url(../img/css/bg1.webp) fixed center center;
   background-size: cover;
   padding: 80px 0;
 }
@@ -969,6 +969,11 @@ section {
 #event {
   padding: 80px 0 120px 0;
 }
+#event .row {
+  margin-bottom: 5em;
+  margin-top: 4em;
+}
+
 #event .row .card-img-top {
   height: 220px;
 }
@@ -989,6 +994,9 @@ section {
   font-size: 14px;
   margin: 0;
   padding: 0;
+}
+#event .more-event:hover {
+  text-decoration: underline;
 }
 
 /* Contact Section
