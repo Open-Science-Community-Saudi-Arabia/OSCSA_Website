@@ -1119,6 +1119,9 @@ section {
   padding: 20px
 }
 
+/*--------------------------------------------------------------
+# subpage
+--------------------------------------------------------------*/
 .sub-page {
   background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/css/bg1.jpeg) fixed center center;
   background-size: cover;
@@ -1177,4 +1180,66 @@ margin-top: 5%;
 	padding: 10px;
 	align-self: center;
 	margin: 5%;
+}
+
+/*--------------------------------------------------------------
+# code of conduct
+--------------------------------------------------------------*/
+.accordion-item{
+    border-radius: 0px;
+    box-shadow: none;
+    border: 1px solid #d5d5d5;
+    margin-bottom: 6px;
+}
+.accordion-header{
+    border-radius: 0px;
+    background-color:#fff;
+    padding:0;
+}
+.accordion-button{
+    display: block;
+    color: #2ca093;
+    font-size: 15px;
+    padding:14px 28px;
+    font-weight: bold;
+    position: relative;
+    border-top:3px solid #2ca093;
+}
+.accordion-button.collapsed{
+    border-top:0;
+}
+.accordion-header .accordion-button:hover,
+.accordion-header .accordion-button:focus,
+.accordion-header .accordion-button:not(.collapsed){
+    text-decoration: none;
+    outline: none;
+    color:#2ca093;
+}
+.accordion-button:before,
+.accordion-button.collapsed:before{
+    content: "\f068";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    color:#2ca093;
+    position: absolute;
+    top:10px;
+    right:12px;
+    font-size: 14px;
+    line-height: 24px;
+}
+.accordion-button.collapsed:before{
+    content: "\f067";
+}
+.accordion-body{
+    color: #050303;
+    font-size: 16px;
+    line-height: 2rem;
+    background:rgb(255, 255, 255);
+
+    padding: 5px 27px 15px;
+    border-top: 0px none;
+}
+.list-group-item.active{
+	background-color:#2ca093;
+	border: none;
 }
