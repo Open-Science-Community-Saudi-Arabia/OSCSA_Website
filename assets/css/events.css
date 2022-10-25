@@ -1,0 +1,53 @@
+.events-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 0 2em 0;
+    gap: 3em;
+    min-height: 35em;
+    padding: 0 3em;
+}
+
+.events-container a {
+    color: #00354E;
+}
+
+.events-container a:visited,
+.events-container a:active {
+    color: #00354E;
+}
+
+@media screen and (max-width: 900px) {
+    .events-container {
+        flex-flow: column wrap;
+        justify-content: space-around;
+    }
+
+}
+
+.events-container .card {
+    box-shadow: 4px 4px 8px 4px rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    width: 23em;
+    height: 28em;
+    gap: 3em;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 900px) {
+    .events-container .card {
+        width: 20em;
+    }
+
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    color: #00354E;
+    text-decoration: underline;
+}
+
+.breadcrumbs {
+    margin: 5em 0 0 0;
+}
