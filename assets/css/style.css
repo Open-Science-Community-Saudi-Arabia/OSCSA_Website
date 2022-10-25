@@ -127,7 +127,7 @@ h6 {
   margin: 30px 0 10px 0;
   font-weight: 700;
   line-height: 48px;
-  font-family: 'Noto Kufi Arabic', sans-serif;
+  font-family: "Noto Kufi Arabic", sans-serif;
   /* text-transform: uppercase; */
   color: #fff;
 }
@@ -142,7 +142,7 @@ h6 {
 #hero h2 {
   color: #ccc;
   margin-bottom: 50px;
-  font-family: 'Noto Kufi Arabic', sans-serif;
+  font-family: "Noto Kufi Arabic", sans-serif;
 }
 
 #hero h2 span {
@@ -932,7 +932,11 @@ section {
   overflow: hidden;
   height: 260px;
 }
-
+.profile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 #team .member .pic img {
   max-width: 100%;
 }
@@ -1049,6 +1053,7 @@ section {
   transition: 0.4s;
 }
 
+
 #contact .php-email-form button[type='submit']:hover {
   background: #25d8fc;
 }
@@ -1150,6 +1155,19 @@ section {
   display: flex;
   justify-content: center;
   padding: 15px;
+}
+.column img {
+  max-width: 400px;
+}
+/* Responsiveness */
+@media (max-width: 785px) {
+  .column {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 50px;
+  }
 }
 
 #contact img {
