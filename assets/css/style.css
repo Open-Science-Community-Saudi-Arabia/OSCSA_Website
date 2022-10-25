@@ -1178,9 +1178,3 @@ section {
 #contact img {
   padding: 20px
 }
-.fundersColumn{
- display: flex;
- align-items: center;
- justify-content: space-around;
- height: 150px;
-}
