@@ -70,6 +70,15 @@
       "contributions": [
         "infra"
       ]
+    },
+    {
+      "login": "Tammy-Ajoko",
+      "name": "Tammy",
+      "avatar_url": "https://avatars.githubusercontent.com/u/109901395?v=4",
+      "profile": "https://github.com/Tammy-Ajoko",
+      "contributions": [
+        "infra"
+      ]
     }
   ],
   "contributorsPerLine": 7,
