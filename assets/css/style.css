@@ -964,6 +964,41 @@ section {
   font-size: 18px;
   margin: 0 2px;
 }
+/* Event Section
+--------------------------------*/
+.event {
+  padding: 80px 0 50px 0;
+}
+.event .row {
+  margin-bottom: 5em;
+  margin-top: 4em;
+}
+
+.event .row .card-img-top {
+  height: 220px;
+}
+.event .row .card {
+  cursor: pointer;
+  box-shadow: 0;
+  transition: box-shadow 0.5s;
+  color: #666666;
+}
+.event .row .card:hover {
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px,
+    rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+}
+.event .row .card-body {
+  padding-bottom: 20px;
+}
+.event .row .card-body .card-text {
+  font-style: italic;
+  font-size: 14px;
+  margin: 0;
+  padding: 0;
+}
+.event .more-event:hover {
+  text-decoration: underline;
+}
 
 /* Contact Section
 --------------------------------*/
@@ -1103,10 +1138,6 @@ section {
   padding-right: 10px;
   color: gray;
   content: "/";
-}
-
-.text-justify {
-  text-align: justify;
 }
 
 @media (max-width: 768px) {

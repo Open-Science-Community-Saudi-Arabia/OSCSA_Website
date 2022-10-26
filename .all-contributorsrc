@@ -12,7 +12,8 @@
       "avatar_url": "https://avatars.githubusercontent.com/u/54219127?v=4",
       "profile": "https://goodnewssandy.netlify.app/",
       "contributions": [
-        "bug"
+        "bug",
+        "infra"
       ]
     },
     {
@@ -39,7 +40,8 @@
       "avatar_url": "https://avatars.githubusercontent.com/u/43034407?v=4",
       "profile": "https://github.com/jesutobi",
       "contributions": [
-        "doc"
+        "doc",
+        "a11y"
       ]
     },
     {
@@ -68,6 +70,24 @@
       "profile": "https://realrichi3.github.io",
       "contributions": [
         "infra"
+      ]
+    },
+    {
+      "login": "Tammy-Ajoko",
+      "name": "Tammy",
+      "avatar_url": "https://avatars.githubusercontent.com/u/109901395?v=4",
+      "profile": "https://github.com/Tammy-Ajoko",
+      "contributions": [
+        "infra"
+      ]
+    },
+    {
+      "login": "Priceless-P",
+      "name": "Prisca Chidimma Maduka",
+      "avatar_url": "https://avatars.githubusercontent.com/u/88077456?v=4",
+      "profile": "https://github.com/Priceless-P",
+      "contributions": [
+        "code"
       ]
     }
   ],
