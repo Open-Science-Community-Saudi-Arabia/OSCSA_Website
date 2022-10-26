@@ -981,6 +981,7 @@ section {
   cursor: pointer;
   box-shadow: 0;
   transition: box-shadow 0.5s;
+  color: #666666;
 }
 .event .row .card:hover {
   box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px,
