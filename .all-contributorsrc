@@ -80,6 +80,15 @@
       "contributions": [
         "infra"
       ]
+    },
+    {
+      "login": "Priceless-P",
+      "name": "Prisca Chidimma Maduka",
+      "avatar_url": "https://avatars.githubusercontent.com/u/88077456?v=4",
+      "profile": "https://github.com/Priceless-P",
+      "contributions": [
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
