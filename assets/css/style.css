@@ -104,6 +104,9 @@ h6 {
   #hero {
     background-attachment: fixed;
   }
+  .center{
+    width: 50%;
+  }
 }
 
 #hero .hero-logo {
@@ -137,6 +140,9 @@ h6 {
     font-size: 28px;
     line-height: 36px;
   }
+     .center {
+       width: 60%;
+     }
 }
 
 #hero h2 {
@@ -216,6 +222,9 @@ h6 {
   #header {
     height: 60px;
   }
+     .center {
+       width: 50%;
+     }
 }
 
 #header.fixed-top {
@@ -361,6 +370,9 @@ h6 {
   .navbar .dropdown .dropdown:hover > ul {
     left: -100%;
   }
+     .center {
+       width: 50%;
+     }
 }
 
 /**
@@ -383,6 +395,34 @@ h6 {
   .navbar ul {
     display: none;
   }
+}
+
+@media (max-width: 320px) {
+  .center {
+      width: 60%;
+    }
+}
+.wrapper {
+  margin: 0 auto;
+  width: 80%;
+}
+
+.videowrapper {
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 25px;
+  height: 0px;
+}
+
+.videowrapper iframe {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  height: 100%;
+  width: 100%;
+
 }
 
 .navbar-mobile {
