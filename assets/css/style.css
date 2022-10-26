@@ -10,7 +10,7 @@
 body {
   background: #fff;
   color: #666666;
-  font-family: "Open Sans", "IBM Plex Sans Arabic", sans-serif;
+  font-family: 'Open Sans', 'IBM Plex Sans Arabic', sans-serif;
 }
 
 a {
@@ -38,7 +38,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Raleway", "Noto Kufi Arabic", sans-serif;
+  font-family: 'Raleway', 'Noto Kufi Arabic', sans-serif;
   font-weight: 400;
   margin: 0 0 20px 0;
   padding: 0;
@@ -53,7 +53,7 @@ h6 {
   width: 100%;
   height: 100%;
   overflow: visible;
-  background: #fff url("../img/preloader.svg") no-repeat center center;
+  background: #fff url('../img/preloader.svg') no-repeat center center;
 }
 
 /*--------------------------------------------------------------
@@ -127,7 +127,7 @@ h6 {
   margin: 30px 0 10px 0;
   font-weight: 700;
   line-height: 48px;
-  font-family: "Noto Kufi Arabic", sans-serif;
+  font-family: 'Noto Kufi Arabic', sans-serif;
   /* text-transform: uppercase; */
   color: #fff;
 }
@@ -142,7 +142,7 @@ h6 {
 #hero h2 {
   color: #ccc;
   margin-bottom: 50px;
-  font-family: "Noto Kufi Arabic", sans-serif;
+  font-family: 'Noto Kufi Arabic', sans-serif;
 }
 
 #hero h2 span {
@@ -168,7 +168,7 @@ h6 {
 }
 
 #hero .actions a {
-  font-family: "Raleway", "IBM Plex Sans Arabic", sans-serif;
+  font-family: 'Raleway', 'IBM Plex Sans Arabic', sans-serif;
   text-transform: uppercase;
   font-weight: 500;
   font-size: 16px;
@@ -278,7 +278,7 @@ h6 {
   align-items: center;
   justify-content: space-between;
   padding: 10px 0 10px 30px;
-  font-family: "Raleway", "Noto Kufi Arabic", sans-serif;
+  font-family: 'Raleway', 'Noto Kufi Arabic', sans-serif;
   font-size: 14px;
   color: #fff;
   white-space: nowrap;
@@ -558,7 +558,7 @@ section {
       rgba(255, 255, 255, 0.9),
       rgba(255, 255, 255, 0.9)
     ),
-    url("../img/services-bg.webp") fixed center center;
+    url('../img/services-bg.webp') fixed center center;
   background-size: cover;
   padding: 80px 0 60px 0;
 }
@@ -635,7 +635,7 @@ section {
 }
 
 #subscribe .subscribe-btn {
-  font-family: "Raleway", "IBM Plex Sans Arabic", sans-serif;
+  font-family: 'Raleway', 'IBM Plex Sans Arabic', sans-serif;
   text-transform: uppercase;
   font-weight: 500;
   font-size: 16px;
@@ -679,7 +679,7 @@ section {
 }
 
 #materilas .subscribe-btn {
-  font-family: "Raleway", "IBM Plex Sans Arabic", sans-serif;
+  font-family: 'Raleway', 'IBM Plex Sans Arabic', sans-serif;
   text-transform: uppercase;
   font-weight: 500;
   font-size: 16px;
@@ -964,41 +964,6 @@ section {
   font-size: 18px;
   margin: 0 2px;
 }
-/* Event Section
---------------------------------*/
-.event {
-  padding: 80px 0 50px 0;
-}
-.event .row {
-  margin-bottom: 5em;
-  margin-top: 4em;
-}
-
-.event .row .card-img-top {
-  height: 220px;
-}
-.event .row .card {
-  cursor: pointer;
-  box-shadow: 0;
-  transition: box-shadow 0.5s;
-  color: #666666;
-}
-.event .row .card:hover {
-  box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px,
-    rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
-}
-.event .row .card-body {
-  padding-bottom: 20px;
-}
-.event .row .card-body .card-text {
-  font-style: italic;
-  font-size: 14px;
-  margin: 0;
-  padding: 0;
-}
-.event .more-event:hover {
-  text-decoration: underline;
-}
 
 /* Contact Section
 --------------------------------*/
@@ -1053,7 +1018,7 @@ section {
 }
 
 #contact .php-email-form .loading:before {
-  content: "";
+  content: '';
   display: inline-block;
   border-radius: 50%;
   width: 24px;
@@ -1076,7 +1041,7 @@ section {
   background-color: #03c4eb;
 }
 
-#contact .php-email-form button[type="submit"] {
+#contact .php-email-form button[type='submit'] {
   background: #03c4eb;
   border: 0;
   padding: 10px 24px;
@@ -1084,7 +1049,7 @@ section {
   transition: 0.4s;
 }
 
-#contact .php-email-form button[type="submit"]:hover {
+#contact .php-email-form button[type='submit']:hover {
   background: #25d8fc;
 }
 
@@ -1137,7 +1102,7 @@ section {
   display: inline-block;
   padding-right: 10px;
   color: gray;
-  content: "/";
+  content: '/';
 }
 
 @media (max-width: 768px) {
