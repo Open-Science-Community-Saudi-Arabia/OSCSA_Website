@@ -1,6 +1,6 @@
 [![Crowdin](https://badges.crowdin.net/oscsa-website-translation/localized.svg)](https://crowdin.com/project/oscsa-website-translation)
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-9-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-10-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 [![Netlify Status](https://api.netlify.com/api/v1/badges/f9f4f640-c6b5-44be-844b-78e7fa03282e/deploy-status)](https://app.netlify.com/sites/oscksa/deploys)
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
@@ -35,6 +35,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <tr>
       <td align="center"><a href="https://github.com/Tammy-Ajoko"><img src="https://avatars.githubusercontent.com/u/109901395?v=4?s=100" width="100px;" alt="Tammy"/><br /><sub><b>Tammy</b></sub></a><br /><a href="#infra-Tammy-Ajoko" title="Infrastructure (Hosting, Build-Tools, etc)">🚇</a></td>
       <td align="center"><a href="https://github.com/Priceless-P"><img src="https://avatars.githubusercontent.com/u/88077456?v=4?s=100" width="100px;" alt="Prisca Chidimma Maduka"/><br /><sub><b>Prisca Chidimma Maduka</b></sub></a><br /><a href="https://github.com/Open-Science-Community-Saudi-Arabia/OSCSA_Website/commits?author=Priceless-P" title="Code">💻</a></td>
+      <td align="center"><a href="https://github.com/GuddyTech"><img src="https://avatars.githubusercontent.com/u/112786412?v=4?s=100" width="100px;" alt="Okorie GoodGod"/><br /><sub><b>Okorie GoodGod</b></sub></a><br /><a href="https://github.com/Open-Science-Community-Saudi-Arabia/OSCSA_Website/issues?q=author%3AGuddyTech" title="Bug reports">🐛</a></td>
     </tr>
   </tbody>
 </table>
