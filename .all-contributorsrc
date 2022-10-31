@@ -89,6 +89,15 @@
       "contributions": [
         "code"
       ]
+    },
+    {
+      "login": "GuddyTech",
+      "name": "Okorie GoodGod",
+      "avatar_url": "https://avatars.githubusercontent.com/u/112786412?v=4",
+      "profile": "https://github.com/GuddyTech",
+      "contributions": [
+        "bug"
+      ]
     }
   ],
   "contributorsPerLine": 7,
