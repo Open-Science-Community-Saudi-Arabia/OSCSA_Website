@@ -5,6 +5,8 @@
 [![Netlify Status](https://api.netlify.com/api/v1/badges/f9f4f640-c6b5-44be-844b-78e7fa03282e/deploy-status)](https://app.netlify.com/sites/oscksa/deploys)
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 
+![Open Science Community SA-01](https://user-images.githubusercontent.com/37513489/199289803-901b64ae-b2e5-4b86-b747-05c5a2a6bb33.png)
+
 
 This is the official website for Open Science Community Saudi Arabia, which can be found [here](https://osc-ksa.com/). It's still under construction.
 
