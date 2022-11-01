@@ -6,6 +6,9 @@
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 
 
+[image.png](https://raw.githubusercontent.com/Open-Science-Community-Saudi-Arabia/Open-Science-Community-in-Saudi/main/imgs/Open%20Science%20Community%20SA-01.png)
+
+
 This is the official website for Open Science Community Saudi Arabia, which can be found [here](https://osc-ksa.com/). It's still under construction.
 
 ### TODO
