@@ -1,3 +1,25 @@
+
+
+
+This is the official website for Open Science Community Saudi Arabia, which can be found [here](https://osc-ksa.com/). It's still under construction.
+
+### Our vision statement:
+
+> **We want to provide a place in Saudi Arabia where newcomers and experienced peers interact, inspire each other to embed open science (research) practices and values in their workflows and provide feedback on policies, infrastructures and support services. Together working to make Open Science the norm. So we are calling out to researchers and colleagues in Saudi Arabia and MENA region**.
+>
+> Open Science improves the quality, accessibility, and efficiency of science, but is not yet the norm in research. While pioneering scholars are developing and embracing Open Science practices, the majority sticks to the status quo. To move from pioneers to common practice, we need to engage a critical proportion of the research community.
+> This is where Open Science Communities come into play.
+
+
+## Contributing :two_hearts:  
+- If you like it, leave your star in this project :star2:
+-  If you would like to complain/suggest/contribute to this project, feel free to open a issue :heart_decoration:
+- Please follow our [contributing guidelines](https://github.com/Open-Science-Community-Saudi-Arabia/Open-Science-Community-in-Saudi/blob/main/CONTRIBUTING.md). 
+
+
+
+
+
 [![Crowdin](https://badges.crowdin.net/oscsa-website-translation/localized.svg)](https://crowdin.com/project/oscsa-website-translation)
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
 [![All Contributors](https://img.shields.io/badge/all_contributors-10-orange.svg?style=flat-square)](#contributors-)
@@ -6,12 +28,10 @@
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 
 
-This is the official website for Open Science Community Saudi Arabia, which can be found [here](https://osc-ksa.com/). It's still under construction.
 
-### TODO
-- Add accessibility elements to the website
 
-### License
+
+### License > 
 https://bootstrapmade.com/license/
 
 ## Contributors ✨
