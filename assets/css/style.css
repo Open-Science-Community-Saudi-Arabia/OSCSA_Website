@@ -477,7 +477,7 @@ section {
   overflow: hidden;
 }
 
-.section-title {
+.section-title, .service-title{
   font-size: 32px;
   color: #111;
   /* text-transform: uppercase; */
@@ -485,16 +485,16 @@ section {
   font-weight: 700;
 }
 
-.section-description {
+.section-description, .service-description{
   text-align: center;
   margin-bottom: 40px;
 }
 
-.section-description a {
+.section-description a, .service-description a{
   color: #166497;
 }
 
-.section-title-divider {
+.section-title-divider, .service-title-divider{
   width: 50px;
   height: 3px;
   background: #03c4eb;
@@ -1189,4 +1189,67 @@ section {
 
 #contact img {
   padding: 20px;
+}
+
+/*--------------------------------------------------------------
+# Service Page
+--------------------------------------------------------------*/
+#service-page {
+  background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)), url("../img/services-bg.jpeg") fixed center center;
+  background-size: cover;
+  padding: 80px 0 60px 0;
+}
+
+#service-page .center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+#service-page p {
+  text-align: justify;
+}
+
+
+#service-page .service-title {
+  margin-left: 80px;
+  font-weight: 700;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+#service-page .service-title a {
+  color: #111;
+}
+
+#service-page .service-video-title {
+  font-size: 24px;
+  font-weight: 600;
+  margin-top: 3rem!important;
+}
+
+#service-page .service-video-text {
+  font-weight: normal;
+  margin-bottom: 1rem!important;
+}
+
+#service-page .service-video-contributors {
+  font-size: medium;
+  margin-bottom: 1rem!important;
+}
+
+#service-page .service-image-reference {
+  font-size: small;
+  font-weight: bold;
+}
+
+#additional-resources .additional-resource {
+  font-size: 24px;
+  font-weight: 600; 
+}
+
+.open-notebooks-advantages li {
+  padding-bottom: 5px;
+  font-weight: lighter;
 }
