@@ -477,14 +477,21 @@ section {
   overflow: hidden;
 }
 
-.section-title {
+.section-title, .nav-con > h3 {
   font-size: 32px;
   color: #111;
   /* text-transform: uppercase; */
-  text-align: center;
   font-weight: 700;
 }
 
+.section-title{
+  text-align: center;
+}
+.nav-con{
+  display: flex;
+  justify-content: space-between;
+  padding: 1.5rem 0;
+}
 .section-description {
   text-align: center;
   margin-bottom: 40px;
@@ -504,7 +511,7 @@ section {
 
 /* Get Started Section
 --------------------------------*/
-#about {
+#about, .serv{
   background: #fff;
   padding: 80px 0;
 }
@@ -553,12 +560,12 @@ section {
 
 /* Services Section
 --------------------------------*/
-#services {
+#services, .resources {
   background: linear-gradient(
       rgba(255, 255, 255, 0.9),
       rgba(255, 255, 255, 0.9)
-    ),
-    url("../img/services-bg.webp") fixed center center;
+    ), 
+    url("../img/services-bg.jpeg") fixed center center;
   background-size: cover;
   padding: 80px 0 60px 0;
 }
@@ -1189,4 +1196,73 @@ section {
 
 #contact img {
   padding: 20px;
+}
+.content-wrapper{
+  max-width: 800px;
+}
+.content-container{
+  margin-bottom: 2rem;
+
+}
+.serv-img{
+  width: 40%;
+}
+.serv-img img{
+  width: 80%;
+  margin-left: 2rem;
+}
+/* iframe */
+.vid-container{
+  width: 50%;
+}
+.video{
+  width: 100%;
+  height: 400px;
+}
+.vid-source{
+  font-size: 0.9rem;
+  color: #111;
+  text-align: center;
+  margin-top: 1rem;
+}
+.resources .service-title{
+  font-weight: 700;
+}
+
+.serv-text:first-child{
+  margin-bottom: 0.5rem;
+}
+.img-ref{
+  font-size: 0.9rem;
+  color: #111;
+  font-weight: 700;
+  margin-top: 1rem;
+  text-align: center;
+}
+.img-ref span{
+  font-weight: 100;
+}
+.vid-ref{
+  font-style: italic;
+  margin-top: 0.7rem;
+  font-size: 0.9rem;
+}
+@media (max-width: 768px) {
+  .serv-img{
+    width: 80%;
+    margin-bottom: 2rem;
+  }
+  .vid-container{
+    width: 90%;
+  }
+  .video{
+    height: 266px;
+  }
+  .nav-con{
+    padding: 0;
+  }
+  .nav-con h3{
+    font-size: 1.5rem;
+    width: 40%;
+  }
 }
