@@ -99,7 +99,12 @@
       <nav id="navbar" class="navbar">
         <ul>
           <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
-          <li><a class="nav-link scrollto" href="#about">About</a></li>
+          <li class="dropdown"><a class="nav-link scrollto">About <i class="fa fa-caret-down"></i></a>
+            <ul class="dropdown-content">
+              <li><a href="#about">Who are we?</a></li>
+              <li><a href="#codeofconduct">Code of Conduct</a></li>
+            </ul>
+          </li>
           <li><a class="nav-link scrollto" href="#services">Open Science</a></li>
           <li><a class="nav-link scrollto" href="#materials">Materials</a></li>
           <li><a class="nav-link scrollto" href="#testimonials">UNESCO Recommendation</a></li>
@@ -113,7 +118,7 @@
   </header><!-- End Header -->
 
   <main id="main">
-
+    <div id="google_translate_element"></div>
     <!-- ======= About Section ======= -->
     <section id="about">
       <div class="container" data-aos="fade-up">
@@ -167,6 +172,79 @@
           </div>
         </div>
     </section><!-- End About Section -->
+
+    <!-- ======= Code of Conduct Section ======= -->
+    <section id="code-of-conduct">
+      <div class="container" data-aos="fade-up">
+        <div class="row">
+          <div class="col-md-12">
+            <h3 class="section-title">Code of Conduct</h3>
+            <div class="section-title-divider"></div>
+            <p class="section-description"><b>Open Science Community Saudi Arabia</b> 
+              is part of the International Network of Open Science and Scholarship Communities (INOSC). While every community is unique, 
+              we share a set of <a href="#guiding-principles">Guiding Principles</a> and adhere to a <a href="#code-of-conduct">Code of Conduct.</a>.
+            </p>
+          </div>
+        </div>
+        <div class="container code-of-conduct-container" data-aos="fade-up" data-aos-delay="200">
+          <div class="row">
+            <div class="col-md-12 code-of-conduct-content">
+              <h2 id="guiding-principles">Guiding Principles</h2>
+              <ul>
+                <li>Open Science/Scholarship Communities (OSCs) 
+                  are bottom-up platforms by and for researchers to exchange knowledge and knowhow on open science practices.</li>
+                <li>OSCs are inclusive
+                  <ul>
+                    <li>Researchers are the target audience of OSCs, but students, researcher supporters, 
+                      and others that are interested in (conducting) research are also welcome to join the community</li>
+                    <li>No prior knowledge is required to be part of the community, 
+                      nor are members in any way required to commit to certain open science/scholarship practices.</li>
+                  </ul>
+                </li>
+                <li>OSCs organize, promote, and facilitate open science/scholarship events to
+                  <ol>
+                    <li>learn about and discuss open science/scholarship practices</li>
+                    <li>share open science/scholarship knowledge</li>
+                    <li>build professional networks</li>
+                  </ol>
+                </li>
+                <ul>
+                  <li>Events are open to both members and non-members, and are free-of-charge, if possible</li>
+                  <li>Attendees and organizers of events organized by OSCs should adhere to the Code of Conduct (see below)</li>
+                </ul>
+                <li>OSCs promote critical discussions of pro’s and con’s of open science/scholarship practices. We refrain from being normative or 
+                  condescending, and do not tell others what to do. Respect for each others’ workflows and decisions in this regard is critical.</li>
+              </ul>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-6 code-of-conduct-img">
+              <img src="assets/img/landing/cc.jpg" alt="code of conduct image">
+            </div>
+            <div class="col-md-6 code-of-conduct-content">
+              <h2 id="codeofconduct">Code of Conduct</h2>
+                  <p class="section-description">Open Science/Scholarship Communities (OSCs) organize, promote, and facilitate open science events to enable all participants, 
+                    members and non-members, to learn about, share, and discuss open science practices. The purpose of this Code of Conduct (CoC) 
+                    is to enable an environment in which diverse individuals can collaborate and interact in mutual respect. 
+                    We recognize a shared responsibility to create and maintain that environment for the benefit of all. 
+                    Some behaviors, therefore, are specifically prohibited:</p>
+                    <ul>
+                      <li>Discriminating, racist, intimidating, harassing, lewd, demeaning, bullying, stalking, or threatening speech oractions</li>
+                      <li>Any real or implied threat of physical harm</li>
+                      <li>Unwelcome sexual attention</li>
+                      <li>Unwelcome physical contact</li>
+                      <li>Sustained disruption of speakers or events (verbally or physically)</li>
+                      <li>Retaliation against an individual for reporting harassment or other unacceptable behaviors</li>
+                      <li>Retaliation against an individual for participating in the investigation of a report of harassment or otherunacceptable behaviors</li>
+                      <li>Advocating or encouraging any of the above behaviors</li>
+                      <li>Falsely reporting harassment or other unacceptable behaviors</li>
+                    </ul>
+                    <p>Critical examination of beliefs and view points does not, by itself, constitute hostile conduct or harassment. Similarly, use of sexual imagery or 
+                    language in the context of a professional discussion might not constitute hostile conduct or harassment if necessary to the topic of discussion.</p>
+                  </div> 
+            </div>
+        </div>
+    </section><!-- End Code of Conduct Section -->
 
     <!-- ======= Services Section ======= -->
     <section id="services">
@@ -650,6 +728,14 @@
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
+
+  <!-- Arabic Translate -->
+  <script type="text/javascript">
+    function googleTranslateElementInit() {
+      new google.translate.TranslateElement({pageLanguage: 'en', includedLanguages : 'ar,en'}, 'google_translate_element');
+    }
+    </script>
+  <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
 
 </body>
 
