@@ -1139,18 +1139,23 @@ section {
   color: gray;
   content: "/";
 }
-
+.text-justify {
+  text-align: justify;
+}
 @media (max-width: 768px) {
   .breadcrumbs .d-flex {
     display: block !important;
   }
 
   .breadcrumbs ol {
-    display: block;
+    /* display: block; */
   }
 
   .breadcrumbs ol li {
     display: inline-block;
+  }
+  .text-justify {
+    text-align: left;
   }
 }
 
