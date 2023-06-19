@@ -1,0 +1,118 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "commitConvention": "angular",
+  "contributors": [
+    {
+      "login": "sandygudie",
+      "name": "Goodnews Sandy",
+      "avatar_url": "https://avatars.githubusercontent.com/u/54219127?v=4",
+      "profile": "https://goodnewssandy.netlify.app/",
+      "contributions": [
+        "bug",
+        "infra"
+      ]
+    },
+    {
+      "login": "okerekechinweotito",
+      "name": "Okereke Chinweotito",
+      "avatar_url": "https://avatars.githubusercontent.com/u/65835404?v=4",
+      "profile": "http://okereke.dev",
+      "contributions": [
+        "infra"
+      ]
+    },
+    {
+      "login": "Jolah1",
+      "name": "Okunlade Jolade",
+      "avatar_url": "https://avatars.githubusercontent.com/u/99138852?v=4",
+      "profile": "https://www.linkedin.com/in/jolade-okunlade-1840a6138",
+      "contributions": [
+        "bug"
+      ]
+    },
+    {
+      "login": "jesutobi",
+      "name": "jesutobi",
+      "avatar_url": "https://avatars.githubusercontent.com/u/43034407?v=4",
+      "profile": "https://github.com/jesutobi",
+      "contributions": [
+        "doc",
+        "a11y"
+      ]
+    },
+    {
+      "login": "mildrette",
+      "name": "Mildred",
+      "avatar_url": "https://avatars.githubusercontent.com/u/99267408?v=4",
+      "profile": "https://github.com/mildrette",
+      "contributions": [
+        "bug"
+      ]
+    },
+    {
+      "login": "AsmaKacem1",
+      "name": "Asma Kacem",
+      "avatar_url": "https://avatars.githubusercontent.com/u/73066984?v=4",
+      "profile": "https://asmakacem.me/",
+      "contributions": [
+        "ideas",
+        "infra"
+      ]
+    },
+    {
+      "login": "RealRichi3",
+      "name": "Richie",
+      "avatar_url": "https://avatars.githubusercontent.com/u/76791916?v=4",
+      "profile": "https://realrichi3.github.io",
+      "contributions": [
+        "infra"
+      ]
+    },
+    {
+      "login": "Tammy-Ajoko",
+      "name": "Tammy",
+      "avatar_url": "https://avatars.githubusercontent.com/u/109901395?v=4",
+      "profile": "https://github.com/Tammy-Ajoko",
+      "contributions": [
+        "infra"
+      ]
+    },
+    {
+      "login": "Priceless-P",
+      "name": "Prisca Chidimma Maduka",
+      "avatar_url": "https://avatars.githubusercontent.com/u/88077456?v=4",
+      "profile": "https://github.com/Priceless-P",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "GuddyTech",
+      "name": "Okorie GoodGod",
+      "avatar_url": "https://avatars.githubusercontent.com/u/112786412?v=4",
+      "profile": "https://github.com/GuddyTech",
+      "contributions": [
+        "bug"
+      ]
+    },
+    {
+      "login": "mutmainaho",
+      "name": "Mutmainah Odunewu",
+      "avatar_url": "https://avatars.githubusercontent.com/u/66721821?v=4",
+      "profile": "https://github.com/mutmainaho",
+      "contributions": [
+        "code"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "skipCi": true,
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "projectName": "OSCSA_Website",
+  "projectOwner": "Open-Science-Community-Saudi-Arabia"
+}

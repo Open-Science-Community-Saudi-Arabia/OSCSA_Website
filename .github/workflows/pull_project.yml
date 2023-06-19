@@ -1,0 +1,19 @@
+name: Add pull requests from Outreachy to projects
+
+on:
+  pull_request_target:
+    types:
+      - labeled
+       
+jobs:
+  add-to-project:
+    name: Add PR to project
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/add-to-project@v0.3.0
+        with:
+          project-url: https://github.com/orgs/Open-Science-Community-Saudi-Arabia/projects/3/
+          github-token: ${{ secrets.ADD_TO_PROJECT_PAT }}
+          labeled: outreachy
+          label-operator: AND
+        
