@@ -667,6 +667,7 @@ section {
   color: #fff;
   font-size: 28px;
   font-weight: 700;
+  text-align: center;
 }
 
 #materilas .subscribe-text {
@@ -874,6 +875,7 @@ section {
   overflow: hidden;
   height: 260px;
   width: 260px;
+  margin:auto;
 }
 
 #testimonials .profile .pic img {
@@ -1108,6 +1110,12 @@ section {
   }
 }
 
+
+
+#contact img {
+  padding: 20px;
+  width:400px
+}
 /*--------------------------------------------------------------
 # Breadcrumbs
 --------------------------------------------------------------*/
@@ -1152,6 +1160,17 @@ section {
   .breadcrumbs ol li {
     display: inline-block;
   }
+  #about .about-title{
+    font-size: 22px;
+  }
+  #contact {
+   
+    padding: 80px 0 40px 0;
+  }
+  #contact img {
+   
+    width:300px
+  }
 }
 
 /*--------------------------------------------------------------
@@ -1161,6 +1180,7 @@ section {
   background: #222b43;
   padding: 30px 0;
   color: #fff;
+  margin-top:2em;
 }
 
 #footer .copyright {
@@ -1185,8 +1205,6 @@ section {
   display: flex;
   justify-content: center;
   padding: 15px;
+  flex-wrap: wrap;
 }
 
-#contact img {
-  padding: 20px;
-}
