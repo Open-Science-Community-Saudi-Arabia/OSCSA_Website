@@ -1002,6 +1002,96 @@ section {
   text-decoration: underline;
 }
 
+/* Event Section
+--------------------------------*/
+#event-top-item .left-col p {
+  width: 70%;
+  font-size: 20px;
+}
+#event-top-item .right-col img {
+  width: 450px;
+}
+#upcoming-event {
+  padding: 4em 0em 8em 0em;
+  background-color: hsl(188deg 71% 96%);
+}
+#upcoming-event .row {
+  margin-top: 3em;
+}
+#upcoming-event .row .event_date {
+  border-left: 3px solid #009986;
+  width: 120px;
+  background-color: aquamarine;
+  font-weight: bold;
+  font-size: 25px;
+}
+#upcoming-event .row p {
+  margin: 0;
+}
+#upcoming-event .row a {
+  background-color: hsl(29, 81%, 59%);
+  padding: 10px 30px;
+  border: none;
+  outline: none;
+  width: 100%;
+  border-radius: 3px;
+  color: black;
+}
+
+#event {
+  padding: 80px 0 120px 0;
+}
+#event .row .card-img-top {
+  height: 220px;
+}
+#event .row .card {
+  width: 350px;
+  cursor: pointer;
+  box-shadow: 0;
+  transition: box-shadow 0.5s;
+}
+#event .row .card:hover {
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px,
+    rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+}
+#event .row .card-body {
+  padding-bottom: 20px;
+}
+#event .row .card-body .card-title {
+  font-weight: 600;
+}
+#event .row .card-body .card-text {
+  font-style: italic;
+  font-size: 14px;
+  margin: 0;
+  padding: 0px 0px 3px 0px;
+}
+@media (max-width: 1024px) {
+ 
+  #event-top-item .right-col img {
+    width: 350px;
+  }
+  
+}
+
+@media (max-width: 768px) {
+  #event-top-item .left-col p {
+    width: 100%;
+  }
+  #event-top-item .right-col img {
+    width: 350px;
+  }
+  #upcoming-event .event_description .event_text{
+ justify-content: center !important;
+  }
+  #upcoming-event .event_description .event_text_left {
+    text-align: center;
+  }
+  #upcoming-event .event_description .event_item_btn {
+    margin-left: 0;
+  }
+}
+
 /* Contact Section
 --------------------------------*/
 #contact {
@@ -1150,7 +1240,7 @@ section {
 
 @media (max-width: 768px) {
   .breadcrumbs .d-flex {
-    display: block !important;
+    /* display: block !important; */
   }
 
   .breadcrumbs ol {
